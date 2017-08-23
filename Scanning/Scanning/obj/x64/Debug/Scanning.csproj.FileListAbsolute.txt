@@ -1,0 +1,8 @@
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\bin\x64\Debug\Scanning.exe.config
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\bin\x64\Debug\Scanning.exe
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\bin\x64\Debug\Scanning.pdb
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\bin\x64\Debug\Microsoft.Kinect.dll
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\bin\x64\Debug\Microsoft.Kinect.xml
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\obj\x64\Debug\Scanning.csprojResolveAssemblyReference.cache
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\obj\x64\Debug\Scanning.exe
+I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\obj\x64\Debug\Scanning.pdb
