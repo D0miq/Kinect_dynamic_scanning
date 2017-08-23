@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanning", "Scanning\Scanning.csproj", "{4B26AC9A-6435-47DB-87B6-A63831F72F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation", "Generation\Generation.csproj", "{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generating", "Generating\Generating.csproj", "{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
