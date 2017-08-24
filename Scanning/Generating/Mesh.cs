@@ -6,6 +6,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Generation
@@ -177,7 +178,6 @@ namespace Generation
             public Builder(ushort[] depthData)
             {
                 this.kinect = KinectSensor.GetDefault();
-                this.kinect.Open();
                 this.depthFrameDescription = kinect.DepthFrameSource.FrameDescription;
                 this.colorFrameDescription = kinect.ColorFrameSource.FrameDescription;
                 this.colors = new Color[this.depthFrameDescription.LengthInPixels];
@@ -187,7 +187,6 @@ namespace Generation
 
             public Mesh Build()
             {
-                kinect.Close();
                 Mesh mesh = new Mesh();
                 mesh.vertexes = cameraSpacePoints;
                 mesh.colors = colors;

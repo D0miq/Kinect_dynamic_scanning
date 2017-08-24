@@ -1,0 +1,8 @@
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\Generation.exe.config
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\obj\Debug\Generation.exe
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\obj\Debug\Generation.pdb
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\Generation.exe
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\Generation.pdb
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\Microsoft.Kinect.dll
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\Microsoft.Kinect.xml
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\obj\Debug\Generating.csprojResolveAssemblyReference.cache

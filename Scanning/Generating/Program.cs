@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Kinect;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -57,32 +58,35 @@ namespace Generation
         static void Main(string[] args)
         {
             bool withColors = false;
-            if(args.Length != 0 && args[0].ToLower().Equals("-colors"))
+            if (args.Length != 0 && args[0].ToLower().Equals("-colors"))
             {
                 withColors = true;
             }
 
+            KinectSensor kinect = KinectSensor.GetDefault();
+            kinect.Open();
             Console.WriteLine("Please choose binary files that will be transformed into object files.");
             string[] filesPaths;
             string[] fileNames;
             SelectFiles(out filesPaths, out fileNames);
-            foreach(var np in filesPaths.Zip(fileNames, Tuple.Create))
+            foreach (var np in filesPaths.Zip(fileNames, Tuple.Create))
             {
                 ushort[] depthData;
                 byte[] colorData;
                 ReadFile(np.Item1, out depthData, out colorData);
-                if(depthData != null && colorData != null)
+                if (depthData != null && colorData != null)
                 {
                     var builder = new Mesh.Builder(depthData);
-                    if(withColors)
+                    if (withColors)
                     {
                         builder.AddColors(colorData);
                     }
                     Mesh mesh = builder.Build();
                     mesh.GenerateMesh(np.Item2);
                     Console.WriteLine(np.Item2 + " was generated into object file.");
-                }   
+                }
             }
+            kinect.Close();
         }
     }
 }
