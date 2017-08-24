@@ -27,7 +27,7 @@ namespace Generation
                     Console.WriteLine("No files were chosen. I am closing the application...");
                     fileNames = null;
                     filePaths = null;
-                    Application.Exit();
+                    Environment.Exit(1);
                 }
             }
         }
