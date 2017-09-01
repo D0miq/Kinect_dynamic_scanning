@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanning", "Scanning\Scanni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generating", "Generating\Generating.csproj", "{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GScanning", "GScanning\GScanning.csproj", "{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}.Release|x64.ActiveCfg = Release|Any CPU
 		{C0D2CA63-434F-48F3-9038-E6B2D5F342AB}.Release|x64.Build.0 = Release|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC68589B-B584-4540-9A44-CF7AA6F2A9C9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
