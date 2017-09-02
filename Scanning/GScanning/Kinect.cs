@@ -70,7 +70,7 @@ namespace GScanning
                             if (Writer.Counter == maxFramesCount)
                             {
                                 StopWriting();
-                                Form1.StatusLabel.Text = "Writing is finished.";                              
+                                Form1.StatusLabel.Text = "Scanning is finished.";                              
                             }
                         }
                     }
