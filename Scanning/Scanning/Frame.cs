@@ -89,7 +89,9 @@ namespace Scanning
             Console.WriteLine("Frame " + Interlocked.CompareExchange(ref framesCounter, 0, 0) + " is written into file.");
             try
             {
-                BinaryWriter bw = new BinaryWriter(new FileStream("frame" + Interlocked.CompareExchange(ref framesCounter, 0, 0), FileMode.Create));
+                string path = "Scans\\frame" + Interlocked.CompareExchange(ref framesCounter, 0, 0);
+                Directory.CreateDirectory(Path.GetDirectoryName(path));
+                BinaryWriter bw = new BinaryWriter(new FileStream(path, FileMode.Create));
                 bw.Write(this.depthData.Length);
                 bw.Write(this.colorData.Length);
                 foreach (ushort depthPixel in this.depthData)

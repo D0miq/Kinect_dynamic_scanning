@@ -70,7 +70,7 @@ namespace GScanning
                             if (Writer.Counter == maxFramesCount)
                             {
                                 StopWriting();
-                                Form1.StatusLabel.Text = "Scanning is finished.";                              
+                                Form1.SetStatusText("Scanning is finished.");                              
                             }
                         }
                     }
@@ -78,7 +78,7 @@ namespace GScanning
             }
             catch
             {
-                Form1.StatusLabel.Text = "Frame is not read properly.";
+                Form1.SetStatusText("Error! Frame is not read properly.");
             }
         }
     }

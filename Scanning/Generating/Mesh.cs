@@ -39,14 +39,16 @@ namespace Generation
         /// 
         /// </summary>
         /// <param name="points"></param>
-        public void GenerateMesh(String path)
+        public void GenerateMesh(String fileName)
         {
             NumberFormatInfo numberFormatInfo = new NumberFormatInfo();
             numberFormatInfo.NumberDecimalSeparator = ".";
             numberFormatInfo.NumberGroupSeparator = "";
             numberFormatInfo.NumberDecimalDigits = 10;
 
-            using (StreamWriter streamWriter = new StreamWriter(path + ".obj"))
+            string path = "Meshes//" + fileName + ".obj";
+            Directory.CreateDirectory(Path.GetDirectoryName(path));
+            using (StreamWriter streamWriter = new StreamWriter(path))
             {
                 for (int i = 0; i < this.vertexes.Length; i++)
                 {

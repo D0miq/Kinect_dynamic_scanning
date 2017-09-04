@@ -35,7 +35,9 @@ namespace GScanning
         {
             try
             {
-                BinaryWriter bw = new BinaryWriter(new FileStream("frame" + index, FileMode.Create));
+                string path = "Scans\\frame" + index;
+                Directory.CreateDirectory(Path.GetDirectoryName(path));
+                BinaryWriter bw = new BinaryWriter(new FileStream(path, FileMode.Create));
                 bw.Write(this.frame.DepthData.Length);
                 bw.Write(this.frame.ColorData.Length);
                 foreach (ushort depthPixel in this.frame.DepthData)
@@ -47,10 +49,11 @@ namespace GScanning
                     bw.Write(colorPixel);
                 }
                 bw.Close();
+                Form1.SetStatusText("Frame" + index + " was written into a file.");
             }
             catch
             {
-                Form1.StatusLabel.Text = "Frame" + index + " was not written into a file.";
+                Form1.SetStatusText("Error! Frame" + index + " was not written into a file.");
             }
         }
     }
