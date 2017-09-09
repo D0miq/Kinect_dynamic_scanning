@@ -35,7 +35,7 @@
         }
 
         /// <summary>
-        /// Opens new <see cref="MultiSourceFrameReader"/> that produces only <see cref="DepthFrame"/> and <see cref="ColorFrame"/>.
+        /// Opens new <see cref="MultiSourceFrameReader"/> and registers <paramref name="eventHandler"/> to it. The reader produces only <see cref="DepthFrame"/> and <see cref="ColorFrame"/>.
         /// </summary>
         /// <param name="eventHandler">Called whenever a new frame appears.</param>
         public void OpenMultiSourceFrameReader(EventHandler<MultiSourceFrameArrivedEventArgs> eventHandler)
