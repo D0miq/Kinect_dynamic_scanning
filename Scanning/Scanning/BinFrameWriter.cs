@@ -4,24 +4,26 @@
     using System.IO;
 
     /// <summary>
-    /// 
+    /// An instance of the <see cref="BinFrameWriter"/> class represents a binary writer.
+    /// The writer produces binary files into Scans\\ directory which is created in the application directory.
     /// </summary>
+    /// <seealso cref="IFrameWriter"/>
     public class BinFrameWriter : IFrameWriter
     {
         /// <summary>
-        /// Logger
+        /// The logger.
         /// </summary>
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         /// <summary>
-        /// 
+        /// Initializes a new instance of the <see cref="BinFrameWriter"/> class.
         /// </summary>
         public BinFrameWriter() { }
 
         /// <summary>
-        /// 
+        /// Writes the given <paramref name="frame"/> into binary file.
         /// </summary>
-        /// <param name="frame"></param>
+        /// <param name="frame">The given frame that is written into binary file.</param>
         public void WriteFrame(Frame frame)
         {
             Console.WriteLine("Writing frame " + frame.ID + " into a file.");

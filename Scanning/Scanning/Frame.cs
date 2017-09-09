@@ -3,62 +3,74 @@
     using Microsoft.Kinect;
 
     /// <summary>
-    /// 
+    /// An instance of the <see cref="Frame"/> class represents a frame with transformed data.
     /// </summary>
     public class Frame
     {
         /// <summary>
-        /// 
+        /// The number of bytes needed for a color pixel.
         /// </summary>
         private const int BYTES_PER_PIXEL = 4;
 
         /// <summary>
-        /// Logger
+        /// The logger.
         /// </summary>
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         /// <summary>
-        /// 
-        /// </summary>
-        private byte[] colorData;
-
-        /// <summary>
-        /// 
+        /// The depth data of a frame.
         /// </summary>
         private ushort[] depthData;
 
         /// <summary>
-        /// 
+        /// The color data of a frame.
+        /// </summary>
+        private byte[] colorData;
+
+        /// <summary>
+        /// The instance of the <see cref="MultiSourceFrame"/> class.
         /// </summary>
         private MultiSourceFrame multiSourceFrame;
 
+        /// <summary>
+        /// The identifical number of a frame.
+        /// </summary>
         private int id = 0;
 
         /// <summary>
-        /// 
+        /// The ColorData property represents color data of a frame.
         /// </summary>
+        /// <value>
+        /// The ColorData property gets the value of the field <see cref="colorData"/>.
+        /// </value>
         public byte[] ColorData
         {
             get
             {
-                return colorData;
+                return this.colorData;
             }
         }
 
         /// <summary>
-        /// 
+        /// The DepthData property represents depth data of a frame.
         /// </summary>
+        /// <value>
+        /// The DepthData property gets the value of the field <see cref="depthData"/>.
+        /// </value>
         public ushort[] DepthData
         {
             get
             {
-                return depthData;
+                return this.depthData;
             }
         }
 
         /// <summary>
-        /// 
+        /// The ID property represents identifical number of a frame.
         /// </summary>
+        /// <value>
+        /// The ID property gets/sets the value of the field <see cref="id"/>.
+        /// </value>
         public int ID
         {
             get
@@ -73,27 +85,31 @@
         }
 
         /// <summary>
-        /// 
+        /// Initializes a new instance of the <see cref="Frame"/> class.
         /// </summary>
-        /// <param name="multiSourceFrame"></param>
+        /// <param name="multiSourceFrame">Used as a supply of depth and color data.</param>
         public Frame(MultiSourceFrame multiSourceFrame)
         {
             this.multiSourceFrame = multiSourceFrame;
         }
 
         /// <summary>
-        /// 
+        /// Acquires all data from the <see cref="multiSourceFrame"/>.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>
+        /// Returns true if all data was acquired correctly, false otherwise.
+        /// </returns>
         public bool AcquireData()
         {
             return this.AcquireDepthData() && this.AcquireColorData();
         }
 
         /// <summary>
-        ///
+        /// Acquires depth data from the <see cref="multiSourceFrame"/>.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>
+        /// Returns true if depth data was acquired correctly, false otherwise.
+        /// </returns>
         private bool AcquireDepthData()
         {
             DepthFrameReference depthFrameReference = this.multiSourceFrame.DepthFrameReference;
@@ -102,7 +118,7 @@
                 if (depthFrame == null)
                 {
                     this.depthData = null;
-                    Log.Warn("Frame does not contain depth data.");
+                    Log.Warn("The frame does not contain depth data.");
                     return false;
                 }
 
@@ -114,9 +130,11 @@
         }
 
         /// <summary>
-        /// 
+        /// Acquires color data from the <see cref="multiSourceFrame"/>.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>
+        /// Returns true if color data was acquired correctly, false otherwise.
+        /// </returns>
         private bool AcquireColorData()
         {
             ColorFrameReference colorFrameReference = this.multiSourceFrame.ColorFrameReference;
@@ -125,7 +143,7 @@
                 if (colorFrame == null)
                 {
                     this.colorData = null;
-                    Log.Warn("Frame does not contain color data.");
+                    Log.Warn("The frame does not contain color data.");
                     return false;
                 }
 
