@@ -1,44 +1,42 @@
-﻿using Microsoft.Kinect;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace Scanning
+﻿namespace Scanning
 {
-    class Frame
-    {
-        private static int framesCounter = 0;
+    using Microsoft.Kinect;
 
+    /// <summary>
+    /// 
+    /// </summary>
+    public class Frame
+    {
+        /// <summary>
+        /// 
+        /// </summary>
         private const int BYTES_PER_PIXEL = 4;
 
-        private ushort[] depthData;
+        /// <summary>
+        /// Logger
+        /// </summary>
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+        /// <summary>
+        /// 
+        /// </summary>
         private byte[] colorData;
 
-        private FrameDescription depthFrameDescription;
+        /// <summary>
+        /// 
+        /// </summary>
+        private ushort[] depthData;
 
-        private FrameDescription colorFrameDescription;
+        /// <summary>
+        /// 
+        /// </summary>
+        private MultiSourceFrame multiSourceFrame;
 
-        public static int FramesCounter
-        {
-            get
-            {
-                return Interlocked.CompareExchange(ref framesCounter, 0, 0);
-            }
-        }
+        private int id = 0;
 
-        public ushort[] DepthData
-        {
-            get
-            {
-                return depthData;
-            }
-        }
-
+        /// <summary>
+        /// 
+        /// </summary>
         public byte[] ColorData
         {
             get
@@ -47,67 +45,94 @@ namespace Scanning
             }
         }
 
-        public Frame(KinectSensor kinect)
+        /// <summary>
+        /// 
+        /// </summary>
+        public ushort[] DepthData
         {
-            depthFrameDescription = kinect.DepthFrameSource.FrameDescription;
-            colorFrameDescription = kinect.ColorFrameSource.FrameDescription;
+            get
+            {
+                return depthData;
+            }
         }
 
-        public void ProcessDepthFrame(MultiSourceFrame multiSourceFrame)
+        /// <summary>
+        /// 
+        /// </summary>
+        public int ID
         {
-            DepthFrameReference depthFrameReference = multiSourceFrame.DepthFrameReference;
+            get
+            {
+                return this.id;
+            }
+
+            set
+            {
+                this.id = value;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="multiSourceFrame"></param>
+        public Frame(MultiSourceFrame multiSourceFrame)
+        {
+            this.multiSourceFrame = multiSourceFrame;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public bool AcquireData()
+        {
+            return this.AcquireDepthData() && this.AcquireColorData();
+        }
+
+        /// <summary>
+        ///
+        /// </summary>
+        /// <returns></returns>
+        private bool AcquireDepthData()
+        {
+            DepthFrameReference depthFrameReference = this.multiSourceFrame.DepthFrameReference;
             using (DepthFrame depthFrame = depthFrameReference.AcquireFrame())
             {
                 if (depthFrame == null)
                 {
-                     depthData = null;
+                    this.depthData = null;
+                    Log.Warn("Frame does not contain depth data.");
+                    return false;
                 }
 
-                depthData = new ushort[depthFrameDescription.LengthInPixels];
-                depthFrame.CopyFrameDataToArray(depthData);
+                FrameDescription depthFrameDescription = depthFrame.FrameDescription;
+                this.depthData = new ushort[depthFrameDescription.LengthInPixels];
+                depthFrame.CopyFrameDataToArray(this.depthData);
+                return true;
             }
         }
 
-        public void ProcessColorFrame(MultiSourceFrame multiSourceFrame)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        private bool AcquireColorData()
         {
-            ColorFrameReference colorFrameReference = multiSourceFrame.ColorFrameReference;
+            ColorFrameReference colorFrameReference = this.multiSourceFrame.ColorFrameReference;
             using (ColorFrame colorFrame = colorFrameReference.AcquireFrame())
             {
                 if (colorFrame == null)
                 {
-                    colorData = null;
+                    this.colorData = null;
+                    Log.Warn("Frame does not contain color data.");
+                    return false;
                 }
 
-                colorData = new byte[colorFrameDescription.LengthInPixels * BYTES_PER_PIXEL];
-                colorFrame.CopyConvertedFrameDataToArray(colorData, ColorImageFormat.Rgba);
-            }
-        }
-
-        public void WriteFrame()
-        {
-            Interlocked.Increment(ref framesCounter);
-            Console.WriteLine("Frame " + Interlocked.CompareExchange(ref framesCounter, 0, 0) + " is written into file.");
-            try
-            {
-                string path = "Scans\\frame" + Interlocked.CompareExchange(ref framesCounter, 0, 0);
-                Directory.CreateDirectory(Path.GetDirectoryName(path));
-                BinaryWriter bw = new BinaryWriter(new FileStream(path, FileMode.Create));
-                bw.Write(this.depthData.Length);
-                bw.Write(this.colorData.Length);
-                foreach (ushort depthPixel in this.depthData)
-                {
-                    bw.Write(depthPixel);
-                }
-                foreach (byte colorPixel in this.colorData)
-                {
-                    bw.Write(colorPixel);
-                }
-                bw.Close();
-            }
-            catch (IOException e)
-            {
-                Console.WriteLine(e.Message + "\n Cannot write to file.");
-                Interlocked.Decrement(ref framesCounter);
+                FrameDescription colorFrameDescription = colorFrame.FrameDescription;
+                this.colorData = new byte[colorFrameDescription.LengthInPixels * BYTES_PER_PIXEL];
+                colorFrame.CopyConvertedFrameDataToArray(this.colorData, ColorImageFormat.Rgba);
+                return true;
             }
         }
     }

@@ -1,65 +1,89 @@
-﻿using System;
-using System.IO;
-using Microsoft.Kinect;
-using System.Threading;
-
-namespace Scanning
+﻿namespace Scanning
 {
-    class Program
+    using System;
+    using System.Threading;
+    using Microsoft.Kinect;
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public class Program
     {
-        static KinectSensor kinect;
+        /// <summary>
+        /// Logger
+        /// </summary>
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        static uint framesCount;
+        /// <summary>
+        /// 
+        /// </summary>
+        private static uint framesCount;
 
-        static void Input()
+        /// <summary>
+        /// 
+        /// </summary>
+        private static ManualResetEvent waitHandle = new ManualResetEvent(false);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private static Kinect kinect = Kinect.Instance;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number of frames.");
-            while (!UInt32.TryParse(Console.ReadLine(), out framesCount))
+            Log.Info("Start of application.");
+            for (int i = 0; i < args.Length; i++)
             {
-                Console.WriteLine("The entered number was not valid. Please reenter the number of frames.");
+                Log.Debug("args[" + i + "]: " + args[i]);
             }
+
+            CheckInputArguments(args);
+
+            IFrameWriter frameWriter = new BinFrameWriter();
+            FrameHandler frameHadler = new FrameHandler(framesCount, frameWriter.WriteFrame);
+            frameHadler.Finished += Handler_ReadingFinished;
+
+            kinect.OpenMultiSourceFrameReader(frameHadler.Handler_FrameArrived);
+            kinect.Start();
+
+            waitHandle.WaitOne();
+
+            Log.Info("End of main thread.");
         }
 
-        static void PrepareKinect()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        private static void CheckInputArguments(string[] args)
         {
-            kinect = KinectSensor.GetDefault();
-            MultiSourceFrameReader multiSourceFrameReader = kinect.OpenMultiSourceFrameReader(FrameSourceTypes.Depth | FrameSourceTypes.Color);
-            multiSourceFrameReader.MultiSourceFrameArrived += Reader_FrameArrived;
+            if (args.Length == 0 || !uint.TryParse(args[0], out framesCount))
+            {
+                Console.WriteLine("The entered arguments were not valid. Please restart the application and use right values." + "\n" +
+                    "Right usage:" + "\n" +
+                    "Scanning.exe <numberOfFrames>" + "\n" +
+                    "<numberOfFrames> = 0-" + uint.MaxValue + " (Keep in mind this value affects run time)");
+                Log.Fatal("The entered program arguments were not valid.");
+                Environment.Exit(1);
+            }
+
+            Log.Debug("Number of frames: " + framesCount);
         }
 
-        private static void Reader_FrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private static void Handler_ReadingFinished(object sender, EventArgs e)
         {
-            try
-            {
-                MultiSourceFrame multiSourceFrame = e.FrameReference.AcquireFrame();
-                if (multiSourceFrame != null)
-                {
-                    Frame frame = new Frame(kinect);
-                    frame.ProcessDepthFrame(multiSourceFrame);
-                    frame.ProcessColorFrame(multiSourceFrame);
-                    if(frame.DepthData != null && frame.ColorData != null)
-                    {
-                        Thread thread = new Thread(new ThreadStart(frame.WriteFrame));
-                        thread.Start();
-                    }
-                }
-            }
-            catch
-            {
-                Console.WriteLine("Frame is not read properly.");
-            }
-        }
-
-        static void Main(string[] args)
-        {
-            PrepareKinect();
-            Input();
-            kinect.Open();
-            while(Frame.FramesCounter < framesCount)
-            {
-                
-            }
-            kinect.Close();
+            Console.WriteLine("All frames were scanned. Please wait until writing is finished...");
+            kinect.Stop();
+            waitHandle.Set();
         }
     }
 }

@@ -9,3 +9,11 @@ I:\Dokumenty\GitHub\Dynamic_Scanning\Scanning\Scanning\obj\Debug\Scanning.pdb
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\Scanning.exe.config
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\obj\Debug\Scanning.exe
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\obj\Debug\Scanning.pdb
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\Scanning.exe
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\Scanning.pdb
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\Microsoft.Kinect.dll
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\Microsoft.Kinect.xml
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\obj\Debug\Scanning.csprojResolveAssemblyReference.cache
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.config
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.dll
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.xml
