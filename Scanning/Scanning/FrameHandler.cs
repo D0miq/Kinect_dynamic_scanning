@@ -26,12 +26,12 @@
         /// <summary>
         /// The requested number of frames.
         /// </summary>
-        private uint numberOfFrames;
+        private uint targetFramesCount;
 
         /// <summary>
         /// The counter of processed frames.
         /// </summary>
-        private int framesCounter = 0;
+        private int currentFramesCount = 0;
 
         /// <summary>
         /// The user-specified action performed with every frame.
@@ -41,13 +41,13 @@
         /// <summary>
         /// Initializes a new instance of the <see cref="FrameHandler"/> class.
         /// </summary>
-        /// <param name="numberOfFrames">Used to stop the frame processing.</param>
+        /// <param name="targetFramesCount">Used to stop the frame processing.</param>
         /// <param name="frameAction">Performed with every frame.</param>
         /// <seealso cref="BinFrameWriter"/>
-        public FrameHandler(uint numberOfFrames, Action<Frame> frameAction)
+        public FrameHandler(uint targetFramesCount, Action<Frame> frameAction)
         {
-            Log.Debug("Number of frames: " + numberOfFrames);
-            this.numberOfFrames = numberOfFrames;
+            Log.Debug("Number of frames: " + targetFramesCount);
+            this.targetFramesCount = targetFramesCount;
             this.frameAction = frameAction;
         }
 
@@ -69,23 +69,23 @@
                 MultiSourceFrame multiSourceFrame = e.FrameReference.AcquireFrame();
                 if (multiSourceFrame != null)
                 {
-                    Frame frame = new Frame(multiSourceFrame);
-                    if (frame.AcquireData())
+                    if (this.currentFramesCount < this.targetFramesCount)
                     {
-                        frame.ID = ++this.framesCounter;
-                        Log.Info("Frame number " + this.framesCounter + " was read properly.");
-                        if (this.framesCounter <= this.numberOfFrames)
+                        Frame frame = new Frame(multiSourceFrame);
+                        if (frame.AcquireData())
                         {
+                            frame.ID = ++this.currentFramesCount;
+                            Log.Info("Frame number " + this.currentFramesCount + " was read properly.");
                             Log.Info("Starting the given action in a new thread.");
                             Thread thread = new Thread(new ThreadStart(() => this.frameAction.Invoke(frame)));
                             thread.Start();
                         }
-                        else
-                        {
-                            Log.Info("Scanning is finished.");
-                            this.OnFinished(EventArgs.Empty);
-                        }
-                    } 
+                    }
+                    else
+                    {
+                        Log.Info("Scanning is finished.");
+                        this.OnFinished(EventArgs.Empty);
+                    }
                 }
             }
             catch (Exception exception)
