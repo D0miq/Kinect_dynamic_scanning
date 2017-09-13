@@ -27,7 +27,7 @@
         private KinectSensor kinect;
 
         /// <summary>
-        /// 
+        /// The instance of the <see cref="MultiSourceFrameReader"/> class.
         /// </summary>
         private MultiSourceFrameReader multiSourceFrameReader;
 

@@ -58,6 +58,7 @@
                     Frame frame = new Frame(multiSourceFrame);
                     if (frame.AcquireDepthData())
                     {
+                        Log.Info("Frames was read properly.");
                         this.Visualise(frame);
                     }
                 }

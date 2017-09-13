@@ -47,6 +47,7 @@
         /// </summary>
         public MainForm()
         {
+            Log.Info("Creating main form.");
             this.InitializeComponent();
             ImageControl imageControl = new ImageControl();
             imageControl.Image.Source = Visualisation.Bitmap;
@@ -78,6 +79,7 @@
             }
             else
             {
+                Log.Debug("Appending text: " + text);
                 statusText.AppendText(text + "\n");
             }
         }
@@ -95,6 +97,7 @@
             if (result != DialogResult.OK || !uint.TryParse(dialog.Value, out framesCount))
             {
                 SetStatusText("The entered number was not valid.");
+                Log.Warn("The entered number was not valid: " + framesCount);
                 return;
             }
 

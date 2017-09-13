@@ -8,11 +8,19 @@
     public partial class InputDialog : Form
     {
         /// <summary>
+        /// The logger.
+        /// </summary>
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        /// <summary>
         /// The Value property represents text value of <see cref="inputTextBox"/>.
         /// </summary>
         public string Value
         {
-            get { return this.inputTextBox.Text.Trim(); }
+            get
+            {
+                return this.inputTextBox.Text.Trim();
+            }
         }
 
         /// <summary>
@@ -23,7 +31,8 @@
         public InputDialog(string title, string header)
         {
             this.InitializeComponent();
-
+            Log.Debug("Title:" + title);
+            Log.Debug("Header: " + header);
             this.Text = title;
             this.headerLabel.Text = header;
         }
