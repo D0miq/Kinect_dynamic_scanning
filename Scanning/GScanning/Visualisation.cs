@@ -1,57 +1,93 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-
-namespace GScanning
+﻿namespace GScanning
 {
-    class Visualisation
+    using System;
+    using System.Threading.Tasks;
+    using System.Windows;
+    using System.Windows.Media;
+    using System.Windows.Media.Imaging;
+    using Microsoft.Kinect;
+
+    /// <summary>
+    /// An instance of the <see cref="Visualisation"/> class reppresents a previewer which handles frames from kinect on its own and visualises them on <see cref="Bitmap"/>.
+    /// </summary>
+    public class Visualisation
     {
         /// <summary>
-        /// Map depth range to byte range
+        /// Bitmap used for visualisation.
+        /// </summary>
+        public static readonly WriteableBitmap Bitmap = new WriteableBitmap(WIDTH, HEIGHT, 96.0, 96.0, PixelFormats.Gray8, null);
+
+        /// <summary>
+        /// The logger.
+        /// </summary>
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        /// <summary>
+        /// Map depth range to byte range.
         /// </summary>
         private const int MAP_DEPTH_TO_BYTE = 8000 / 256;
 
+        /// <summary>
+        /// Height of a frame.
+        /// </summary>
         private const int HEIGHT = 424;
 
+        /// <summary>
+        /// Width of a frame.
+        /// </summary>
         private const int WIDTH = 512;
 
-        private static WriteableBitmap bitmap = new WriteableBitmap(WIDTH, HEIGHT, 96.0, 96.0, PixelFormats.Gray8, null);
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Visualisation"/> class.
+        /// </summary>
+        public Visualisation() { }
 
-        public static WriteableBitmap Bitmap
+        /// <summary>
+        /// Handles incoming frames from <see cref="MultiSourceFrameReader"/> and visualises them.
+        /// </summary>
+        /// <param name="sender">The sender of an event.</param>
+        /// <param name="e">Arguments of an event.</param>
+        /// <seealso cref="Kinect"/>
+        public void Visualisation_FrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
-            get
+            try
             {
-                return bitmap;
+                MultiSourceFrame multiSourceFrame = e.FrameReference.AcquireFrame();
+                if (multiSourceFrame != null)
+                {
+                    Frame frame = new Frame(multiSourceFrame);
+                    if (frame.AcquireDepthData())
+                    {
+                        this.Visualise(frame);
+                    }
+                }
+            }
+            catch (Exception exception)
+            {
+                MainForm.SetStatusText("Frame was not read properly.");
+                Log.Error(exception.Message + " Frame was not read properly.");
             }
         }
 
-        private Frame frame;
-
-        public Visualisation(Frame frame)
+        /// <summary>
+        /// Visualises given <paramref name="frame"/>.
+        /// </summary>
+        /// <param name="frame">The read frame which is visualised.</param>
+        private void Visualise(Frame frame)
         {
-            this.frame = frame;
-        }
-
-        public void Visualise()
-        {
-            byte[] depthColors = GetColorFromDepth(this.frame.DepthData);
-            bitmap.WritePixels(
-                new Int32Rect(0, 0, bitmap.PixelWidth, bitmap.PixelHeight),
+            byte[] depthColors = this.GetColorFromDepth(frame.DepthData);
+            Bitmap.WritePixels(
+                new Int32Rect(0, 0, Bitmap.PixelWidth, Bitmap.PixelHeight),
                 depthColors,
-                bitmap.PixelWidth,
+                Bitmap.PixelWidth,
                 0);
         }
 
         /// <summary>
-        /// 
+        /// Transforms depths to colors.
         /// </summary>
-        /// <param name="depthData"></param>
+        /// <param name="depthData">The array of depth data.</param>
+        /// <returns>An array of color data.</returns>
         private byte[] GetColorFromDepth(ushort[] depthData)
         {
             byte[] depthColors = new byte[depthData.Length];

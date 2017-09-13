@@ -4,7 +4,6 @@ I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\GScanning.pdb
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\Microsoft.Kinect.dll
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\Microsoft.Kinect.xml
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.csprojResolveAssemblyReference.cache
-I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.Form1.resources
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.InputDialog.resources
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.Properties.Resources.resources
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.csproj.GenerateResource.Cache
@@ -15,3 +14,7 @@ I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning_Mark
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning_MarkupCompile.lref
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\ImageControl.baml
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.g.resources
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.MainForm.resources
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.config
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.dll
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.xml

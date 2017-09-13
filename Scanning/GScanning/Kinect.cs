@@ -1,84 +1,76 @@
-﻿using Microsoft.Kinect;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace GScanning
+﻿namespace GScanning
 {
-    class Kinect
+    using System;
+    using Microsoft.Kinect;
+
+    /// <summary>
+    /// An instance of the <see cref="Kinect"/> class represents a wrapper for the <see cref="KinectSensor"/> class.
+    /// The <see cref="KinectSensor"/> class is wrapped to avoid possible problems with other connected Kinect sensors.
+    /// The <see cref="Kinect"/> class has private constructor and is made as a singleton to guarantee usage of only one Kinect sensor for whole run time.
+    /// </summary>
+    /// <seealso cref="KinectSensor"/>
+    public class Kinect
     {
+        /// <summary>
+        /// The logger.
+        /// </summary>
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+        /// <summary>
+        /// The only instance of the <see cref="Kinect"/> class.
+        /// </summary>
+        public static readonly Kinect Instance = new Kinect();
+
+        /// <summary>
+        /// The instance of the <see cref="KinectSensor"/> class.
+        /// </summary>
         private KinectSensor kinect;
 
+        /// <summary>
+        /// 
+        /// </summary>
         private MultiSourceFrameReader multiSourceFrameReader;
 
-        private bool write = false;
-
-        private uint maxFramesCount = 0;
-
-        public uint MaxFramesCount
-        {
-            get
-            {
-                return maxFramesCount;
-            }
-
-            set
-            {
-                maxFramesCount = value;
-            }
-        }
-
-        public Kinect()
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Kinect"/> class.
+        /// </summary>
+        private Kinect()
         {
             this.kinect = KinectSensor.GetDefault();
+            Log.Info("Opening a frame reader.");
             this.multiSourceFrameReader = this.kinect.OpenMultiSourceFrameReader(FrameSourceTypes.Depth | FrameSourceTypes.Color);
-            this.multiSourceFrameReader.MultiSourceFrameArrived += Reader_FrameArrived;
-            this.kinect.Open();
         }
 
-        public void StartWriting()
+        /// <summary>
+        /// Adds new <see cref="EventHandler"/> to <see cref="multiSourceFrameReader"/>.
+        /// </summary>
+        /// <param name="eventHandler">Called whenever a new frame appears.</param>
+        public void AddMultiSourceFrameEventHandler(EventHandler<MultiSourceFrameArrivedEventArgs> eventHandler)
         {
-            this.write = true;
+            this.multiSourceFrameReader.MultiSourceFrameArrived += eventHandler;
         }
 
-        public void StopWriting()
+        /// <summary>
+        /// Starts the <see cref="KinectSensor"/>.
+        /// </summary>
+        public void Start()
         {
-            this.write = false;
-        }
-
-        private void Reader_FrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
-        {
-            try
+            if (!this.kinect.IsAvailable)
             {
-                MultiSourceFrame multiSourceFrame = e.FrameReference.AcquireFrame();
-                if (multiSourceFrame != null)
-                {
-                    Frame frame = new Frame(kinect);
-                    frame.ProcessDepthFrame(multiSourceFrame);
-                    frame.ProcessColorFrame(multiSourceFrame);
-                    if (frame.DepthData != null)
-                    {
-                        new Visualisation(frame).Visualise();
-                        if (write && frame.ColorData != null)
-                        {
-                            Writer writer = new Writer(frame);
-                            Thread thread = new Thread(new ThreadStart(writer.Write));
-                            thread.Start();
-                            if (Writer.Counter == maxFramesCount)
-                            {
-                                StopWriting();
-                                Form1.SetStatusText("Scanning is finished.");                              
-                            }
-                        }
-                    }
-                }
+                Log.Info("Starting the Kinect.");
+                this.kinect.Open();
             }
-            catch
+        }
+
+        /// <summary>
+        /// Stops the <see cref="KinectSensor"/>.
+        /// </summary>
+        public void Stop()
+        {
+            if (this.kinect.IsAvailable)
             {
-                Form1.SetStatusText("Error! Frame is not read properly.");
+                Log.Info("Stoping the Kinect.");
+                this.kinect.Close();
             }
         }
     }
