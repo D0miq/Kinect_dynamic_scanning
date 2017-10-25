@@ -1,28 +1,44 @@
-﻿using Microsoft.Kinect;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Generation
+﻿namespace Generating
 {
-    class Program
+    using System;
+    using System.Linq;
+    using Microsoft.Kinect;
+    using System.Windows.Forms;
+
+    /// <summary>
+    /// The <see cref="Program"/> class is the main class of the application and serves as an entry point.
+    /// </summary>
+    public class Program
     {
-        static void SelectFiles(out string[] filePaths, out string[] fileNames)
+        private static bool withColors = false;
+
+        private static void CheckArguments(string[] args)
+        {
+            if (args.Length != 0 && args[0].ToLower().Equals("-colors"))
+            {
+                withColors = true;
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="filePaths"></param>
+        /// <param name="fileNames"></param>
+        private static void SelectFiles(out string[] filePaths, out string[] fileNames)
         {
             using (OpenFileDialog dialog = new OpenFileDialog())
             {
                 dialog.Multiselect = true;
+                dialog.Filter = "bin files (*.bin)|*.bin";
                 DialogResult result = dialog.ShowDialog();
 
                 if (result == DialogResult.OK)
                 {
                     fileNames = dialog.SafeFileNames;
                     filePaths = dialog.FileNames;
-                }else
+                }
+                else
                 {
                     Console.WriteLine("No files were chosen. I am closing the application...");
                     fileNames = null;
@@ -32,48 +48,29 @@ namespace Generation
             }
         }
 
-        static void ReadFile(string filePath, out ushort[] depthData, out byte[] colorData)
-        {
-            try
-            {
-                BinaryReader br = new BinaryReader(new FileStream(filePath, FileMode.Open));
-                int depthLength = br.ReadInt32();
-                int colorLength = br.ReadInt32();
-                depthData = new ushort[depthLength];
-                for(int i = 0; i < depthLength; i++)
-                {
-                    depthData[i] = br.ReadUInt16();
-                }
-                colorData = br.ReadBytes(colorLength);
-                br.Close();
-            }catch
-            {
-                Console.WriteLine(filePath + " was not read properly!");
-                depthData = null;
-                colorData = null;
-            }
-        }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         [STAThreadAttribute]
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            bool withColors = false;
-            if (args.Length != 0 && args[0].ToLower().Equals("-colors"))
-            {
-                withColors = true;
-            }
-
             KinectSensor kinect = KinectSensor.GetDefault();
             kinect.Open();
+
+            CheckArguments(args);
+
             Console.WriteLine("Please choose binary files that will be transformed into object files.");
             string[] filesPaths;
             string[] fileNames;
+
             SelectFiles(out filesPaths, out fileNames);
             foreach (var np in filesPaths.Zip(fileNames, Tuple.Create))
             {
                 ushort[] depthData;
                 byte[] colorData;
-                ReadFile(np.Item1, out depthData, out colorData);
+                IFileReader reader = new BinFileReader();
+                reader.ReadFile(np.Item1, out depthData, out colorData);
                 if (depthData != null && colorData != null)
                 {
                     var builder = new Mesh.Builder(depthData);
@@ -81,11 +78,14 @@ namespace Generation
                     {
                         builder.AddColors(colorData);
                     }
+
                     Mesh mesh = builder.Build();
-                    mesh.GenerateMesh(np.Item2);
+                    IMeshWriter writer = new ObjMeshWriter();
+                    writer.WriteMesh(mesh, np.Item2);
                     Console.WriteLine(np.Item2 + " was generated into object file.");
                 }
             }
+
             kinect.Close();
         }
     }

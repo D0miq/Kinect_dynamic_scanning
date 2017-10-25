@@ -58,6 +58,7 @@
             this.scanButton.TabIndex = 0;
             this.scanButton.Text = "Scan frames";
             this.scanButton.UseVisualStyleBackColor = true;
+            this.scanButton.Click += ScanButton_Click;
             // 
             // elementHost
             // 

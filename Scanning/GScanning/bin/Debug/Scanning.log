@@ -1,0 +1,1007 @@
+2017-10-25 19:45:36,616 [1] INFO GScanning.Program - Starting the application.
+2017-10-25 19:45:36,745 [1] INFO GScanning.Kinect - Opening a frame reader.
+2017-10-25 19:45:36,750 [1] INFO GScanning.MainForm - Creating main form.
+2017-10-25 19:45:36,877 [1] INFO GScanning.Kinect - Starting the Kinect.
+2017-10-25 19:45:38,018 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,041 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,108 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,774 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:38,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,307 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,574 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,707 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:39,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,107 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,374 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,507 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,640 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:40,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:41,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,907 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:42,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:43,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,107 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,907 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:44,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,307 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,574 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,707 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:45,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,107 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,507 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,774 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,907 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:46,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,307 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,440 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,707 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:47,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,107 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,418 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:45:48,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,507 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,575 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,640 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,707 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,774 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:48,974 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:49,974 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:50,974 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,040 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:51,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,574 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:52,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,307 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:53,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,373 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:54,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,106 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,239 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,306 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,374 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,439 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,506 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,573 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,639 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,706 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,773 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,839 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,906 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:55,973 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:56,039 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:56,107 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:45:56,173 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:02,717 [1] INFO GScanning.Program - Starting the application.
+2017-10-25 19:46:02,863 [1] INFO GScanning.Kinect - Opening a frame reader.
+2017-10-25 19:46:02,867 [1] INFO GScanning.MainForm - Creating main form.
+2017-10-25 19:46:02,998 [1] INFO GScanning.Kinect - Starting the Kinect.
+2017-10-25 19:46:04,637 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:04,674 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:04,740 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:04,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:04,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:04,939 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,139 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,339 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,539 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,739 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:05,940 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,139 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,340 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,539 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,740 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:06,939 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,140 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,339 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,540 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,739 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:07,939 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,139 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,340 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,539 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,739 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:08,939 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,140 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,339 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,540 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,739 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,873 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:09,940 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,006 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,073 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,139 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,206 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,273 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,340 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,406 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,473 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,539 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,606 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:46:10,673 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:56,817 [1] INFO GScanning.Program - Starting the application.
+2017-10-25 19:53:56,964 [1] INFO GScanning.Kinect - Opening a frame reader.
+2017-10-25 19:53:56,968 [1] INFO GScanning.MainForm - Creating main form.
+2017-10-25 19:53:57,096 [1] INFO GScanning.Kinect - Starting the Kinect.
+2017-10-25 19:53:58,102 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,141 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,203 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:58,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,403 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:53:59,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,203 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:00,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,003 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:01,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:02,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,403 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,803 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:03,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,603 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:04,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:05,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:06,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:07,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,268 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:08,907 [1] DEBUG GScanning.InputDialog - Title:Input
+2017-10-25 19:54:08,907 [1] DEBUG GScanning.InputDialog - Header: Enter a number of frames:
+2017-10-25 19:54:08,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,004 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:09,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,603 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:10,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,403 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,868 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:11,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,107 [1] DEBUG GScanning.FrameHandler - Number of frames: 10
+2017-10-25 19:54:12,134 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,145 [1] INFO GScanning.FrameHandler - 1 of 10 frames was read properly.
+2017-10-25 19:54:12,145 [1] DEBUG GScanning.FrameHandler - Total: 1
+2017-10-25 19:54:12,145 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,148 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2017-10-25 19:54:12,150 [14] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2017-10-25 19:54:12,150 [14] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2017-10-25 19:54:12,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,212 [1] INFO GScanning.FrameHandler - 2 of 10 frames was read properly.
+2017-10-25 19:54:12,212 [1] DEBUG GScanning.FrameHandler - Total: 2
+2017-10-25 19:54:12,212 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,214 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 2 into a file.
+2017-10-25 19:54:12,216 [15] INFO GScanning.BinFrameWriter - Writing frame 2 into a file.
+2017-10-25 19:54:12,216 [15] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame2.bin
+2017-10-25 19:54:12,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,277 [1] INFO GScanning.FrameHandler - 3 of 10 frames was read properly.
+2017-10-25 19:54:12,277 [1] DEBUG GScanning.FrameHandler - Total: 3
+2017-10-25 19:54:12,277 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,279 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 3 into a file.
+2017-10-25 19:54:12,281 [16] INFO GScanning.BinFrameWriter - Writing frame 3 into a file.
+2017-10-25 19:54:12,281 [16] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame3.bin
+2017-10-25 19:54:12,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,344 [1] INFO GScanning.FrameHandler - 4 of 10 frames was read properly.
+2017-10-25 19:54:12,344 [1] DEBUG GScanning.FrameHandler - Total: 4
+2017-10-25 19:54:12,344 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,346 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 4 into a file.
+2017-10-25 19:54:12,348 [17] INFO GScanning.BinFrameWriter - Writing frame 4 into a file.
+2017-10-25 19:54:12,348 [17] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame4.bin
+2017-10-25 19:54:12,405 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,412 [1] INFO GScanning.FrameHandler - 5 of 10 frames was read properly.
+2017-10-25 19:54:12,412 [1] DEBUG GScanning.FrameHandler - Total: 5
+2017-10-25 19:54:12,412 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,415 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 5 into a file.
+2017-10-25 19:54:12,417 [18] INFO GScanning.BinFrameWriter - Writing frame 5 into a file.
+2017-10-25 19:54:12,417 [18] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame5.bin
+2017-10-25 19:54:12,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,479 [1] INFO GScanning.FrameHandler - 6 of 10 frames was read properly.
+2017-10-25 19:54:12,479 [1] DEBUG GScanning.FrameHandler - Total: 6
+2017-10-25 19:54:12,479 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,481 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 6 into a file.
+2017-10-25 19:54:12,483 [19] INFO GScanning.BinFrameWriter - Writing frame 6 into a file.
+2017-10-25 19:54:12,483 [19] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame6.bin
+2017-10-25 19:54:12,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,542 [1] INFO GScanning.FrameHandler - 7 of 10 frames was read properly.
+2017-10-25 19:54:12,542 [1] DEBUG GScanning.FrameHandler - Total: 7
+2017-10-25 19:54:12,542 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,545 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 7 into a file.
+2017-10-25 19:54:12,547 [20] INFO GScanning.BinFrameWriter - Writing frame 7 into a file.
+2017-10-25 19:54:12,547 [20] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame7.bin
+2017-10-25 19:54:12,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,613 [1] INFO GScanning.FrameHandler - 8 of 10 frames was read properly.
+2017-10-25 19:54:12,613 [1] DEBUG GScanning.FrameHandler - Total: 8
+2017-10-25 19:54:12,613 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,615 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 8 into a file.
+2017-10-25 19:54:12,618 [21] INFO GScanning.BinFrameWriter - Writing frame 8 into a file.
+2017-10-25 19:54:12,618 [21] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame8.bin
+2017-10-25 19:54:12,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,683 [1] INFO GScanning.FrameHandler - 9 of 10 frames was read properly.
+2017-10-25 19:54:12,683 [1] DEBUG GScanning.FrameHandler - Total: 9
+2017-10-25 19:54:12,683 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,686 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 9 into a file.
+2017-10-25 19:54:12,689 [22] INFO GScanning.BinFrameWriter - Writing frame 9 into a file.
+2017-10-25 19:54:12,689 [22] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame9.bin
+2017-10-25 19:54:12,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,745 [1] INFO GScanning.FrameHandler - 10 of 10 frames was read properly.
+2017-10-25 19:54:12,745 [1] DEBUG GScanning.FrameHandler - Total: 10
+2017-10-25 19:54:12,745 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:12,750 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 10 into a file.
+2017-10-25 19:54:12,752 [23] INFO GScanning.BinFrameWriter - Writing frame 10 into a file.
+2017-10-25 19:54:12,752 [23] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame10.bin
+2017-10-25 19:54:12,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,804 [1] INFO GScanning.FrameHandler - Scanning is finished.
+2017-10-25 19:54:12,805 [1] DEBUG GScanning.MainForm - Appending text: All frames were scanned. Please wait until writing is finished...
+2017-10-25 19:54:12,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:12,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,329 [1] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2017-10-25 19:54:13,332 [14] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2017-10-25 19:54:13,334 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,742 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:13,743 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:13,744 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:13,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,139 [1] DEBUG GScanning.MainForm - Appending text: Frame 2 was written into the file.
+2017-10-25 19:54:14,141 [15] INFO GScanning.BinFrameWriter - Frame 2 was written into the file.
+2017-10-25 19:54:14,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,473 [1] DEBUG GScanning.MainForm - Appending text: Frame 6 was written into the file.
+2017-10-25 19:54:14,476 [19] INFO GScanning.BinFrameWriter - Frame 6 was written into the file.
+2017-10-25 19:54:14,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,795 [1] DEBUG GScanning.MainForm - Appending text: Frame 3 was written into the file.
+2017-10-25 19:54:14,798 [16] INFO GScanning.BinFrameWriter - Frame 3 was written into the file.
+2017-10-25 19:54:14,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:14,990 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:14,991 [1] DEBUG GScanning.MainForm - Appending text: Frame 10 was written into the file.
+2017-10-25 19:54:14,994 [23] INFO GScanning.BinFrameWriter - Frame 10 was written into the file.
+2017-10-25 19:54:15,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,080 [1] DEBUG GScanning.MainForm - Appending text: Frame 4 was written into the file.
+2017-10-25 19:54:15,083 [17] INFO GScanning.BinFrameWriter - Frame 4 was written into the file.
+2017-10-25 19:54:15,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,219 [1] DEBUG GScanning.MainForm - Appending text: Frame 5 was written into the file.
+2017-10-25 19:54:15,223 [18] INFO GScanning.BinFrameWriter - Frame 5 was written into the file.
+2017-10-25 19:54:15,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,299 [1] DEBUG GScanning.MainForm - Appending text: Frame 7 was written into the file.
+2017-10-25 19:54:15,303 [1] DEBUG GScanning.MainForm - Appending text: Frame 8 was written into the file.
+2017-10-25 19:54:15,303 [20] INFO GScanning.BinFrameWriter - Frame 7 was written into the file.
+2017-10-25 19:54:15,307 [21] INFO GScanning.BinFrameWriter - Frame 8 was written into the file.
+2017-10-25 19:54:15,307 [1] DEBUG GScanning.MainForm - Appending text: Frame 9 was written into the file.
+2017-10-25 19:54:15,311 [22] INFO GScanning.BinFrameWriter - Frame 9 was written into the file.
+2017-10-25 19:54:15,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:15,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,668 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:16,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,701 [1] DEBUG GScanning.InputDialog - Title:Input
+2017-10-25 19:54:17,701 [1] DEBUG GScanning.InputDialog - Header: Enter a number of frames:
+2017-10-25 19:54:17,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:17,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:18,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:19,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,134 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,428 [1] DEBUG GScanning.FrameHandler - Number of frames: 10
+2017-10-25 19:54:20,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,480 [1] INFO GScanning.FrameHandler - 1 of 10 frames was read properly.
+2017-10-25 19:54:20,480 [1] DEBUG GScanning.FrameHandler - Total: 11
+2017-10-25 19:54:20,480 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,482 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 11 into a file.
+2017-10-25 19:54:20,486 [22] INFO GScanning.BinFrameWriter - Writing frame 11 into a file.
+2017-10-25 19:54:20,486 [22] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame11.bin
+2017-10-25 19:54:20,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,552 [1] INFO GScanning.FrameHandler - 2 of 10 frames was read properly.
+2017-10-25 19:54:20,552 [1] DEBUG GScanning.FrameHandler - Total: 12
+2017-10-25 19:54:20,552 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,559 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 12 into a file.
+2017-10-25 19:54:20,563 [21] INFO GScanning.BinFrameWriter - Writing frame 12 into a file.
+2017-10-25 19:54:20,563 [21] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame12.bin
+2017-10-25 19:54:20,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,611 [1] INFO GScanning.FrameHandler - 3 of 10 frames was read properly.
+2017-10-25 19:54:20,611 [1] DEBUG GScanning.FrameHandler - Total: 13
+2017-10-25 19:54:20,611 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,612 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 13 into a file.
+2017-10-25 19:54:20,617 [20] INFO GScanning.BinFrameWriter - Writing frame 13 into a file.
+2017-10-25 19:54:20,617 [20] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame13.bin
+2017-10-25 19:54:20,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,687 [1] INFO GScanning.FrameHandler - 4 of 10 frames was read properly.
+2017-10-25 19:54:20,687 [1] DEBUG GScanning.FrameHandler - Total: 14
+2017-10-25 19:54:20,687 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,690 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 14 into a file.
+2017-10-25 19:54:20,694 [19] INFO GScanning.BinFrameWriter - Writing frame 14 into a file.
+2017-10-25 19:54:20,694 [19] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame14.bin
+2017-10-25 19:54:20,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,745 [1] INFO GScanning.FrameHandler - 5 of 10 frames was read properly.
+2017-10-25 19:54:20,745 [1] DEBUG GScanning.FrameHandler - Total: 15
+2017-10-25 19:54:20,745 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,749 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 15 into a file.
+2017-10-25 19:54:20,753 [18] INFO GScanning.BinFrameWriter - Writing frame 15 into a file.
+2017-10-25 19:54:20,753 [18] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame15.bin
+2017-10-25 19:54:20,806 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,820 [1] INFO GScanning.FrameHandler - 6 of 10 frames was read properly.
+2017-10-25 19:54:20,820 [1] DEBUG GScanning.FrameHandler - Total: 16
+2017-10-25 19:54:20,820 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,822 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 16 into a file.
+2017-10-25 19:54:20,827 [17] INFO GScanning.BinFrameWriter - Writing frame 16 into a file.
+2017-10-25 19:54:20,827 [17] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame16.bin
+2017-10-25 19:54:20,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,878 [1] INFO GScanning.FrameHandler - 7 of 10 frames was read properly.
+2017-10-25 19:54:20,879 [1] DEBUG GScanning.FrameHandler - Total: 17
+2017-10-25 19:54:20,879 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,901 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 17 into a file.
+2017-10-25 19:54:20,907 [16] INFO GScanning.BinFrameWriter - Writing frame 17 into a file.
+2017-10-25 19:54:20,907 [16] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame17.bin
+2017-10-25 19:54:20,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:20,942 [1] INFO GScanning.FrameHandler - 8 of 10 frames was read properly.
+2017-10-25 19:54:20,942 [1] DEBUG GScanning.FrameHandler - Total: 18
+2017-10-25 19:54:20,942 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:20,944 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 18 into a file.
+2017-10-25 19:54:20,949 [15] INFO GScanning.BinFrameWriter - Writing frame 18 into a file.
+2017-10-25 19:54:20,949 [15] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame18.bin
+2017-10-25 19:54:21,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,013 [1] INFO GScanning.FrameHandler - 9 of 10 frames was read properly.
+2017-10-25 19:54:21,013 [1] DEBUG GScanning.FrameHandler - Total: 19
+2017-10-25 19:54:21,013 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:21,020 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 19 into a file.
+2017-10-25 19:54:21,025 [14] INFO GScanning.BinFrameWriter - Writing frame 19 into a file.
+2017-10-25 19:54:21,025 [14] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame19.bin
+2017-10-25 19:54:21,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,082 [1] INFO GScanning.FrameHandler - 10 of 10 frames was read properly.
+2017-10-25 19:54:21,083 [1] DEBUG GScanning.FrameHandler - Total: 20
+2017-10-25 19:54:21,083 [1] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2017-10-25 19:54:21,084 [1] DEBUG GScanning.MainForm - Appending text: Writing frame 20 into a file.
+2017-10-25 19:54:21,089 [23] INFO GScanning.BinFrameWriter - Writing frame 20 into a file.
+2017-10-25 19:54:21,089 [23] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame20.bin
+2017-10-25 19:54:21,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,141 [1] INFO GScanning.FrameHandler - Scanning is finished.
+2017-10-25 19:54:21,141 [1] DEBUG GScanning.MainForm - Appending text: All frames were scanned. Please wait until writing is finished...
+2017-10-25 19:54:21,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,610 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:21,682 [1] DEBUG GScanning.MainForm - Appending text: Frame 11 was written into the file.
+2017-10-25 19:54:21,912 [22] INFO GScanning.BinFrameWriter - Frame 11 was written into the file.
+2017-10-25 19:54:21,912 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:21,912 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:21,913 [1] WARN GScanning.Frame - The frame does not contain depth data.
+2017-10-25 19:54:21,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,514 [1] DEBUG GScanning.MainForm - Appending text: Frame 12 was written into the file.
+2017-10-25 19:54:22,519 [21] INFO GScanning.BinFrameWriter - Frame 12 was written into the file.
+2017-10-25 19:54:22,534 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,651 [1] DEBUG GScanning.MainForm - Appending text: Frame 13 was written into the file.
+2017-10-25 19:54:22,656 [20] INFO GScanning.BinFrameWriter - Frame 13 was written into the file.
+2017-10-25 19:54:22,668 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,790 [1] DEBUG GScanning.MainForm - Appending text: Frame 14 was written into the file.
+2017-10-25 19:54:22,795 [19] INFO GScanning.BinFrameWriter - Frame 14 was written into the file.
+2017-10-25 19:54:22,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:22,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,068 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,165 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,268 [1] DEBUG GScanning.MainForm - Appending text: Frame 20 was written into the file.
+2017-10-25 19:54:23,274 [23] INFO GScanning.BinFrameWriter - Frame 20 was written into the file.
+2017-10-25 19:54:23,275 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,334 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,524 [1] DEBUG GScanning.MainForm - Appending text: Frame 15 was written into the file.
+2017-10-25 19:54:23,530 [18] INFO GScanning.BinFrameWriter - Frame 15 was written into the file.
+2017-10-25 19:54:23,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,578 [1] DEBUG GScanning.MainForm - Appending text: Frame 16 was written into the file.
+2017-10-25 19:54:23,583 [17] INFO GScanning.BinFrameWriter - Frame 16 was written into the file.
+2017-10-25 19:54:23,590 [1] DEBUG GScanning.MainForm - Appending text: Frame 19 was written into the file.
+2017-10-25 19:54:23,595 [1] DEBUG GScanning.MainForm - Appending text: Frame 17 was written into the file.
+2017-10-25 19:54:23,595 [14] INFO GScanning.BinFrameWriter - Frame 19 was written into the file.
+2017-10-25 19:54:23,601 [1] DEBUG GScanning.MainForm - Appending text: Frame 18 was written into the file.
+2017-10-25 19:54:23,601 [16] INFO GScanning.BinFrameWriter - Frame 17 was written into the file.
+2017-10-25 19:54:23,607 [15] INFO GScanning.BinFrameWriter - Frame 18 was written into the file.
+2017-10-25 19:54:23,608 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:23,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:24,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,734 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:25,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,268 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:26,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,202 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,269 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,602 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,669 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,735 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,802 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,869 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:27,935 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,002 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,069 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,135 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,201 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,268 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,335 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,402 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,469 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,535 [1] INFO GScanning.Visualisation - Frames was read properly.
+2017-10-25 19:54:28,666 [1] WARN GScanning.Frame - The frame does not contain depth data.

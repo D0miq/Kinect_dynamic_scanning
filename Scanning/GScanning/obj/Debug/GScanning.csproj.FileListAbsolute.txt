@@ -18,3 +18,4 @@ I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.Main
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.config
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.dll
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\bin\Debug\log4net.xml
+I:\Dokumenty\GitHub\dynamic-scanning\Scanning\GScanning\obj\Debug\GScanning.csproj.CoreCompileInputs.cache

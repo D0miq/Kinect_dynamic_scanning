@@ -75,7 +75,7 @@
                         if (frame.AcquireData())
                         {
                             frame.ID = ++this.currentFramesCount;
-                            Log.Info("Frame number " + this.currentFramesCount + " was read properly.");
+                            Log.Info(this.currentFramesCount + " of " + this.targetFramesCount + " frames was read properly.");
                             Log.Info("Starting the given action in a new thread.");
                             Thread thread = new Thread(new ThreadStart(() => this.frameAction.Invoke(frame)));
                             thread.Start();
@@ -84,6 +84,7 @@
                     else
                     {
                         Log.Info("Scanning is finished.");
+                        ((MultiSourceFrameReader)sender).MultiSourceFrameArrived -= this.Handler_FrameArrived;
                         this.OnFinished(EventArgs.Empty);
                     }
                 }
