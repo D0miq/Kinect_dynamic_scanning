@@ -29,17 +29,18 @@
         /// </summary>
         static MainForm()
         {
-            statusText = new TextBox();
-            statusText.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom)
-            | AnchorStyles.Left;
-            statusText.Location = new System.Drawing.Point(3, 3);
-            statusText.Multiline = true;
-            statusText.Name = "statusText";
-            statusText.ReadOnly = true;
-            statusText.ScrollBars = ScrollBars.Vertical;
-            statusText.Size = new System.Drawing.Size(264, 378);
-            statusText.TabIndex = 1;
-            statusText.WordWrap = true;
+            statusText = new TextBox
+            {
+                Anchor = (AnchorStyles.Top | AnchorStyles.Bottom) | AnchorStyles.Left,
+                Location = new System.Drawing.Point(3, 3),
+                Multiline = true,
+                Name = "statusText",
+                ReadOnly = true,
+                ScrollBars = ScrollBars.Vertical,
+                Size = new System.Drawing.Size(264, 378),
+                TabIndex = 1,
+                WordWrap = true
+            };
         }
 
         /// <summary>

@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinFrameWriter.cs" />
+    <Compile Include="Convertor.cs" />
     <Compile Include="FrameHandler.cs" />
     <Compile Include="IFrameWriter.cs" />
     <Compile Include="MainForm.cs">

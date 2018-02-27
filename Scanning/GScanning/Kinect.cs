@@ -12,6 +12,11 @@
     public class Kinect
     {
         /// <summary>
+        /// The max distance of a depth sensor.
+        /// </summary>
+        public const float MaxDistance = 8000f;
+
+        /// <summary>
         /// The logger.
         /// </summary>
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);

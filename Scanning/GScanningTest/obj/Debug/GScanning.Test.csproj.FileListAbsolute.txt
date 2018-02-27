@@ -1,0 +1,17 @@
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\cs\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\GScanning.Test.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\GScanning.Test.pdb
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Rhino.Mocks.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\bin\Debug\Rhino.Mocks.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\obj\Debug\GScanning.Test.csproj.CoreCompileInputs.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\obj\Debug\GScanning.Test.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\GScanning.Test\obj\Debug\GScanning.Test.pdb

@@ -13,7 +13,7 @@
 
     /// <summary>
     /// An instance of the <see cref="FrameHandler"/> class reppresents a frame handler that is used to process a given number of incoming frames.
-    /// It creates new <see cref="Thread"/>, everytime a frame is processed, and call a user-specified action.
+    /// Everytime the frame is processed it calls a user-specified action. The action is called in a new <see cref="Thread"/> by default but can be changed with a constructor or setter.
     /// The class creates an event when the execution of requested number of frames is finished to inform everybody who is listening.
     /// </summary>
     public class FrameHandler
@@ -44,16 +44,50 @@
         private Action<Frame> frameAction;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="FrameHandler"/> class.
+        /// Indicates if action performed with every new frame should be called in a new thread.
+        /// </summary>
+        private bool isMultithreaded;
+
+        /// <summary>
+        /// Gets or sets a value indicating whether action performed with every new frame should be called in a new thread <see cref="isMultithreaded"/>.
+        /// </summary>
+        public bool IsMultithreaded
+        {
+            get
+            {
+                return this.isMultithreaded;
+            }
+
+            set
+            {
+                this.isMultithreaded = value;
+            }
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FrameHandler"/> class. Multithreading is turned on.
         /// </summary>
         /// <param name="targetFramesCount">Used to stop the frame processing.</param>
         /// <param name="frameAction">Performed with every frame.</param>
         /// <seealso cref="BinFrameWriter"/>
         public FrameHandler(uint targetFramesCount, Action<Frame> frameAction)
+            : this(targetFramesCount, frameAction, true)
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FrameHandler"/> class.
+        /// </summary>
+        /// <param name="targetFramesCount">Used to stop the frame processing.</param>
+        /// <param name="frameAction">Performed with every frame.</param>
+        /// <param name="isMultithreaded">Indicates if action performed with every new frame should be called in a new thread.</param>
+        /// <seealso cref="BinFrameWriter"/>
+        public FrameHandler(uint targetFramesCount, Action<Frame> frameAction, bool isMultithreaded)
         {
             Log.Debug("Number of frames: " + targetFramesCount);
             this.targetFramesCount = targetFramesCount;
             this.frameAction = frameAction;
+            this.isMultithreaded = isMultithreaded;
         }
 
         /// <summary>
@@ -84,8 +118,15 @@
                             Log.Info(this.currentFramesCount + " of " + this.targetFramesCount + " frames was read properly.");
                             Log.Debug("Total: " + totalFramesCount);
                             Log.Info("Starting the given action in a new thread.");
-                            Thread thread = new Thread(new ThreadStart(() => this.frameAction.Invoke(frame)));
-                            thread.Start();
+                            if (this.isMultithreaded)
+                            {
+                                Thread thread = new Thread(new ThreadStart(() => this.frameAction.Invoke(frame)));
+                                thread.Start();
+                            }
+                            else
+                            {
+                                this.frameAction.Invoke(frame);
+                            }
                         }
                     }
                     else

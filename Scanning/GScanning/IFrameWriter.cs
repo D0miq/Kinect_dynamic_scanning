@@ -6,6 +6,7 @@
     /// The declared method should be implemented as thread-safe to avoid some possible future errors during frame handling.
     /// </summary>
     /// <seealso cref="BinFrameWriter"/>
+    /// <seealso cref="FrameHandler"/>
     public interface IFrameWriter
     {
         /// <summary>
