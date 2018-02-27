@@ -15,7 +15,7 @@
         private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         /// <summary>
-        /// The number of frames that will be processed by application.
+        /// The number of frames that will be processed by the application.
         /// </summary>
         private static uint framesCount;
 

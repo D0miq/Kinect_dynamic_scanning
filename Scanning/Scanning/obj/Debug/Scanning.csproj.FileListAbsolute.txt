@@ -17,3 +17,15 @@ I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\obj\Debug\Scanning.csproj
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.config
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.dll
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Scanning\bin\Debug\log4net.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\log4net.config
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\Scanning.exe.config
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\Scanning.exe
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\Scanning.pdb
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\log4net.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\Microsoft.Kinect.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\log4net.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\bin\Debug\Microsoft.Kinect.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\obj\Debug\Scanning.csprojResolveAssemblyReference.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\obj\Debug\Scanning.csproj.CoreCompileInputs.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\obj\Debug\Scanning.exe
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Scanning\obj\Debug\Scanning.pdb
