@@ -10,3 +10,15 @@ I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\log4net.confi
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\log4net.dll
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\bin\Debug\log4net.xml
 I:\Dokumenty\GitHub\dynamic-scanning\Scanning\Generating\obj\Debug\Generating.csproj.CoreCompileInputs.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\log4net.config
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\Generating.exe.config
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\Generating.exe
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\Generating.pdb
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\log4net.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\Microsoft.Kinect.dll
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\log4net.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\bin\Debug\Microsoft.Kinect.xml
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\obj\Debug\Generating.csprojResolveAssemblyReference.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\obj\Debug\Generating.csproj.CoreCompileInputs.cache
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\obj\Debug\Generating.exe
+I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\Generating\obj\Debug\Generating.pdb

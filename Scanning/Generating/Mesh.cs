@@ -6,44 +6,84 @@ namespace Generating
     using Microsoft.Kinect;
 
     /// <summary>
-    /// 
+    /// An instance of the <see cref="Mesh"/> class represents a final mesh created from depth and color data.
     /// </summary>
+    /// <seealso cref="IMeshWriter"/>
+    /// <seealso cref="Frame"/>
     public class Mesh
     {
         /// <summary>
-        /// 
+        /// The logger.
         /// </summary>
-        public CameraSpacePoint[] vertexes;
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         /// <summary>
-        /// 
+        /// The array of vertexes.
         /// </summary>
-        public Color[] colors;
+        private CameraSpacePoint[] vertexes;
 
         /// <summary>
-        /// 
+        /// The array of colors.
         /// </summary>
-        public List<int[]> triangles;
+        private Color[] colors;
 
         /// <summary>
-        /// 
+        /// The list of triangles.
+        /// </summary>
+        private List<int[]> triangles;
+
+        /// <summary>
+        /// The array of indices.
         /// </summary>
         private int[] indices;
 
         /// <summary>
-        /// 
+        /// The length of <see cref="vertexes"/> and <see cref="colors"/>.
         /// </summary>
         private int freeIndex = 0;
 
         /// <summary>
-        /// 
+        /// A width of a depth frame.
         /// </summary>
         private int depthWidth = KinectSensor.GetDefault().DepthFrameSource.FrameDescription.Width;
 
         /// <summary>
-        /// 
+        /// A height of a depth frame.
         /// </summary>
         private int depthHeight = KinectSensor.GetDefault().DepthFrameSource.FrameDescription.Height;
+
+        /// <summary>
+        /// Gets the Vertexes property that represents vertexes <see cref="vertexes"/> of a mesh.
+        /// </summary>
+        public CameraSpacePoint[] Vertexes
+        {
+            get
+            {
+                return this.vertexes;
+            }
+        }
+
+        /// <summary>
+        /// Gets the Colors property that represents colors <see cref="colors"/> of a mesh.
+        /// </summary>
+        public Color[] Colors
+        {
+            get
+            {
+                return this.colors;
+            }
+        }
+
+        /// <summary>
+        /// Gets the Triangles property that represents triangles <see cref="triangles"/> of a mesh.
+        /// </summary>
+        public List<int[]> Triangles
+        {
+            get
+            {
+                return this.triangles;
+            }
+        }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Mesh"/> class.
@@ -58,8 +98,6 @@ namespace Generating
 
             this.triangles = new List<int[]>();
         }
-
-
 
         /// <summary>
         /// Transfers points from camera view into world coordinates
@@ -138,7 +176,7 @@ namespace Generating
         }
 
         /// <summary>
-        /// 
+        /// Reorders colors and vertexes.
         /// </summary>
         private void Reorder()
         {
@@ -179,72 +217,81 @@ namespace Generating
         }
 
         /// <summary>
-        /// 
+        /// An instance of the <see cref="Builder"/> class represents a builder of the <see cref="Mesh"/>.
         /// </summary>
         public class Builder
         {
             /// <summary>
-            /// 
+            /// Colors of a mesh.
             /// </summary>
             private Color[] colors;
 
             /// <summary>
-            /// 
+            /// Vertexes of a mesh.
             /// </summary>
             private CameraSpacePoint[] cameraSpacePoints;
 
             /// <summary>
-            /// 
+            /// Kinect sensor.
             /// </summary>
             private KinectSensor kinect;
 
             /// <summary>
-            /// 
+            /// Number of depth points.
             /// </summary>
-            private FrameDescription depthFrameDescription;
+            private int spacePointsCount;
 
             /// <summary>
-            /// 
+            /// Width of color frame.
             /// </summary>
-            private FrameDescription colorFrameDescription;
+            private int colorFrameWidth;
+
+            /// <summary>
+            /// Height of color frame.
+            /// </summary>
+            private int colorFrameHeight;
 
             /// <summary>
             /// Initializes a new instance of the <see cref="Builder"/> class.
             /// </summary>
-            /// <param name="depthData"></param>
+            /// <param name="depthData">Depth values.</param>
             public Builder(ushort[] depthData)
             {
                 this.kinect = KinectSensor.GetDefault();
-                this.depthFrameDescription = this.kinect.DepthFrameSource.FrameDescription;
-                this.colorFrameDescription = this.kinect.ColorFrameSource.FrameDescription;
-                this.colors = new Color[this.depthFrameDescription.LengthInPixels];
-                this.cameraSpacePoints = new CameraSpacePoint[this.depthFrameDescription.LengthInPixels];
+                this.spacePointsCount = depthData.Length;
+                this.colorFrameWidth = this.kinect.ColorFrameSource.FrameDescription.Width;
+                this.colorFrameHeight = this.kinect.ColorFrameSource.FrameDescription.Height;
+                this.colors = new Color[this.spacePointsCount];
+                this.cameraSpacePoints = new CameraSpacePoint[this.spacePointsCount];
                 this.kinect.CoordinateMapper.MapDepthFrameToCameraSpace(depthData, this.cameraSpacePoints);
             }
 
             /// <summary>
-            /// 
+            /// Creates a mesh with speciied characteristics.
             /// </summary>
-            /// <returns></returns>
+            /// <returns>The created mesh.</returns>
             public Mesh Build()
             {
-                Mesh mesh = new Mesh();
-                mesh.vertexes = this.cameraSpacePoints;
-                mesh.colors = this.colors;
+                Mesh mesh = new Mesh
+                {
+                    vertexes = this.cameraSpacePoints,
+                    colors = this.colors
+                };
+
                 mesh.CreateTriangles();
                 return mesh;
             }
 
             /// <summary>
-            /// 
+            /// Prepares colors for a mesh.
             /// </summary>
-            /// <param name="colorsData"></param>
-            /// <returns></returns>
+            /// <param name="colorsData">Color data.</param>
+            /// <returns>An instance of the <see cref="Builder"/></returns>
             public Builder AddColors(byte[] colorsData)
             {
-                ColorSpacePoint[] colorSpacePoints = new ColorSpacePoint[this.depthFrameDescription.LengthInPixels];
+                ColorSpacePoint[] colorSpacePoints = new ColorSpacePoint[this.spacePointsCount];
                 this.kinect.CoordinateMapper.MapCameraPointsToColorSpace(this.cameraSpacePoints, colorSpacePoints);
-                byte[] mappedColors = Mapper.MapColorToDepth(colorsData, colorSpacePoints, this.colorFrameDescription.Width, this.colorFrameDescription.Height);
+                byte[] mappedColors = Mapper.MapColorToDepth(colorsData, colorSpacePoints, this.colorFrameWidth, this.colorFrameHeight);
                 Color[] colors = Mapper.MapRgbaToColors(mappedColors);
                 this.colors = colors;
                 return this;

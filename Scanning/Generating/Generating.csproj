@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinFileReader.cs" />
+    <Compile Include="Frame.cs" />
     <Compile Include="IFileReader.cs" />
     <Compile Include="IMeshWriter.cs" />
     <Compile Include="Mapper.cs" />

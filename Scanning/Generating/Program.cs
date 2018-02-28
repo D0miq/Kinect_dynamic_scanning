@@ -2,29 +2,73 @@
 {
     using System;
     using System.Linq;
-    using Microsoft.Kinect;
     using System.Windows.Forms;
+    using Microsoft.Kinect;
 
     /// <summary>
     /// The <see cref="Program"/> class is the main class of the application and serves as an entry point.
     /// </summary>
     public class Program
     {
+        /// <summary>
+        /// True if application should generate colors, else otherwise.
+        /// </summary>
         private static bool withColors = false;
 
+        /// <summary>
+        /// Starts the entire application.
+        /// </summary>
+        /// <param name="args">Input agruments of the application.</param>
+        [STAThreadAttribute]
+        public static void Main(string[] args)
+        {
+            KinectSensor kinect = KinectSensor.GetDefault();
+            kinect.Open();
+
+            CheckArguments(args);
+
+            Console.WriteLine("Please choose binary files that will be transformed into object files.");
+
+            SelectFiles(out string[] filesPaths, out string[] fileNames);
+            foreach (var np in filesPaths.Zip(fileNames, Tuple.Create))
+            {
+                IFileReader reader = new BinFileReader();
+                Frame frame = reader.ReadFile(np.Item1);
+                if (frame.DepthData != null && frame.ColorData != null)
+                {
+                    var builder = new Mesh.Builder(frame.DepthData);
+                    if (withColors)
+                    {
+                        builder.AddColors(frame.ColorData);
+                    }
+
+                    Mesh mesh = builder.Build();
+                    IMeshWriter writer = new ObjMeshWriter();
+                    writer.WriteMesh(mesh, np.Item2.Substring(0, np.Item2.LastIndexOf('.')));
+                    Console.WriteLine(np.Item2 + " was generated into object file.");
+                }
+            }
+
+            kinect.Close();
+        }
+
+        /// <summary>
+        /// Checks input arguments.
+        /// </summary>
+        /// <param name="args">Arguments of the program.</param>
         private static void CheckArguments(string[] args)
         {
-            if (args.Length != 0 && args[0].ToLower().Equals("-colors"))
+            if (args.Length != 0 && (args[0].ToLower().Equals("-color") || args[0].ToLower().Equals("-c")))
             {
                 withColors = true;
             }
         }
 
         /// <summary>
-        /// 
+        /// Creates an <see cref="OpenFileDialog"/> and saves paths and names of selected files.
         /// </summary>
-        /// <param name="filePaths"></param>
-        /// <param name="fileNames"></param>
+        /// <param name="filePaths">Paths of selected files.</param>
+        /// <param name="fileNames">Names of selected files.</param>
         private static void SelectFiles(out string[] filePaths, out string[] fileNames)
         {
             using (OpenFileDialog dialog = new OpenFileDialog())
@@ -46,47 +90,6 @@
                     Environment.Exit(1);
                 }
             }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="args"></param>
-        [STAThreadAttribute]
-        public static void Main(string[] args)
-        {
-            KinectSensor kinect = KinectSensor.GetDefault();
-            kinect.Open();
-
-            CheckArguments(args);
-
-            Console.WriteLine("Please choose binary files that will be transformed into object files.");
-            string[] filesPaths;
-            string[] fileNames;
-
-            SelectFiles(out filesPaths, out fileNames);
-            foreach (var np in filesPaths.Zip(fileNames, Tuple.Create))
-            {
-                ushort[] depthData;
-                byte[] colorData;
-                IFileReader reader = new BinFileReader();
-                reader.ReadFile(np.Item1, out depthData, out colorData);
-                if (depthData != null && colorData != null)
-                {
-                    var builder = new Mesh.Builder(depthData);
-                    if (withColors)
-                    {
-                        builder.AddColors(colorData);
-                    }
-
-                    Mesh mesh = builder.Build();
-                    IMeshWriter writer = new ObjMeshWriter();
-                    writer.WriteMesh(mesh, np.Item2);
-                    Console.WriteLine(np.Item2 + " was generated into object file.");
-                }
-            }
-
-            kinect.Close();
         }
     }
 }
