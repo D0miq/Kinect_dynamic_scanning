@@ -38,11 +38,8 @@
         private int id = 0;
 
         /// <summary>
-        /// The ColorData property represents color data of a frame.
+        /// Gets the ColorData property that represents color data <see cref="colorData"/> of a frame.
         /// </summary>
-        /// <value>
-        /// The ColorData property gets the value of the field <see cref="colorData"/>.
-        /// </value>
         public byte[] ColorData
         {
             get
@@ -52,11 +49,8 @@
         }
 
         /// <summary>
-        /// The DepthData property represents depth data of a frame.
+        /// Gets the DepthData property that represents depth data <see cref="depthData"/> of a frame.
         /// </summary>
-        /// <value>
-        /// The DepthData property gets the value of the field <see cref="depthData"/>.
-        /// </value>
         public ushort[] DepthData
         {
             get
@@ -66,11 +60,8 @@
         }
 
         /// <summary>
-        /// The ID property represents identifical number of a frame.
+        /// Gets or sets the ID property that represents identifical number <see cref="id"/> of a frame.
         /// </summary>
-        /// <value>
-        /// The ID property gets/sets the value of the field <see cref="id"/>.
-        /// </value>
         public int ID
         {
             get

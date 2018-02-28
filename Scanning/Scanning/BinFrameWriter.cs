@@ -40,8 +40,8 @@
                 BinaryWriter bw = new BinaryWriter(new FileStream(this.PreparePath(frame.ID), FileMode.Create));
 
                 bw.Write(frame.DepthData.Length);
-                bw.Write(frame.ColorData.Length);
                 Array.ForEach(frame.DepthData, bw.Write);
+                bw.Write(frame.ColorData.Length);
                 Array.ForEach(frame.ColorData, bw.Write);
 
                 bw.Close();

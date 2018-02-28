@@ -1,13 +1,19 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using GScanning;
-using System.Linq;
-
-namespace GScanningTest
+﻿namespace GScanningTest
 {
+    using System;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using GScanning;
+    using System.Linq;
+
+    /// <summary>
+    /// Tests the <see cref="Convertor"/> class.
+    /// </summary>
     [TestClass]
     public class ConvertorTest
     {
+        /// <summary>
+        /// Tests the <see cref="Convertor.ConvertDepthToColor(ushort[])"/>
+        /// </summary>
         [TestMethod]
         public void TestConvertDepthToColor()
         {

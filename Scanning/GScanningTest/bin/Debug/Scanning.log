@@ -810,3 +810,303 @@
 2018-02-25 22:01:47,028 [33] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
 2018-02-25 22:01:47,033 [33] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
 2018-02-25 22:01:47,054 [10] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 07:59:55,386 [16] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 07:59:55,535 [16] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 07:59:55,537 [16] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 07:59:55,547 [16] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 07:59:55,550 [16] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 07:59:57,863 [18] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 07:59:57,978 [18] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 07:59:57,980 [18] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 07:59:57,985 [18] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 07:59:57,988 [18] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 08:05:19,842 [21] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 08:05:19,961 [21] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 08:05:19,964 [21] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 08:05:19,969 [21] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 08:05:19,973 [21] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 08:05:21,937 [23] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 08:05:22,070 [23] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 08:05:22,073 [23] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 08:05:22,078 [23] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 08:05:22,081 [23] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:09:10,991 [21] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 09:09:11,039 [11] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:11,054 [10] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:11,121 [25] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 09:09:11,161 [24] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 09:09:11,191 [17] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 09:09:11,219 [14] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:11,231 [26] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:11,235 [26] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 09:09:11,259 [14] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:11,269 [14] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:11,269 [14] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 09:09:11,270 [14] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:11,282 [23] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:11,294 [24] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:11,300 [24] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:11,300 [24] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 09:09:11,300 [24] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:11,735 [14] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 09:09:11,826 [14] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:09:11,828 [14] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:09:11,833 [14] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 09:09:11,836 [14] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:09:11,856 [25] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 09:09:13,539 [19] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 09:09:13,589 [12] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:13,604 [5] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:13,673 [21] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 09:09:13,713 [20] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 09:09:13,745 [28] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 09:09:13,771 [29] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:13,784 [30] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:13,787 [30] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 09:09:13,802 [31] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:13,815 [31] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:13,815 [31] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 09:09:13,815 [31] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:13,828 [29] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:13,840 [28] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:13,846 [28] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:13,847 [28] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 09:09:13,847 [28] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:14,273 [20] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 09:09:14,369 [20] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:09:14,372 [20] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:09:14,377 [20] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 09:09:14,381 [20] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:09:14,401 [21] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 09:47:18,683 [14] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 09:47:18,733 [25] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:18,748 [31] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:18,813 [34] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 09:47:18,852 [35] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 09:47:18,883 [37] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 09:47:18,912 [38] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:18,930 [37] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:18,934 [37] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 09:47:18,949 [36] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:18,958 [36] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:18,958 [36] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 09:47:18,959 [36] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:18,973 [34] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:18,986 [30] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:18,992 [30] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:18,993 [30] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 09:47:18,993 [30] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:19,442 [35] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 09:47:19,542 [35] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:47:19,545 [35] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:47:19,550 [35] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 09:47:19,554 [35] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:47:19,580 [34] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 09:47:21,354 [37] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 09:47:21,405 [26] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:21,421 [19] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:21,487 [28] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 09:47:21,526 [29] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 09:47:21,557 [25] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 09:47:21,587 [14] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:21,601 [10] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:21,606 [10] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 09:47:21,622 [39] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:21,641 [39] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:21,641 [39] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 09:47:21,642 [39] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:21,658 [14] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:21,670 [25] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:21,676 [25] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:21,677 [25] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 09:47:21,677 [25] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:22,134 [17] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 09:47:22,234 [17] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:47:22,237 [17] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:47:22,242 [17] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 09:47:22,247 [17] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:47:22,268 [4] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 10:03:18,055 [13] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 10:03:18,115 [22] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:18,130 [5] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:18,201 [41] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 10:03:18,241 [42] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 10:03:18,272 [44] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 10:03:18,314 [45] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:18,330 [44] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:18,334 [44] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 10:03:18,350 [43] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:18,358 [43] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:18,359 [43] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 10:03:18,359 [43] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:18,372 [41] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:18,386 [42] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:18,392 [42] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:18,393 [42] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 10:03:18,393 [42] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:18,866 [44] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 10:03:18,970 [44] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 10:03:18,972 [44] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 10:03:18,978 [44] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 10:03:18,982 [44] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 10:03:19,004 [25] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 10:03:20,843 [42] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 10:03:20,898 [33] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:20,914 [37] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:20,981 [4] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 10:03:21,021 [21] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 10:03:21,051 [38] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 10:03:21,081 [30] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:21,102 [38] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:21,106 [38] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 10:03:21,121 [11] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:21,130 [11] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:21,130 [11] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 10:03:21,131 [11] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:21,143 [4] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:21,156 [25] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:21,163 [25] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:21,163 [25] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 10:03:21,163 [25] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:21,641 [19] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 10:03:21,749 [19] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 10:03:21,752 [19] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 10:03:21,758 [19] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 10:03:21,762 [19] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 10:03:21,784 [37] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 13:15:41,834 [9] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 13:15:41,986 [21] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:42,002 [14] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:42,065 [23] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 13:15:42,099 [11] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 13:15:42,128 [15] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 13:15:42,153 [20] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:42,165 [26] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:42,168 [26] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 13:15:42,182 [18] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:42,197 [18] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:42,198 [18] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 13:15:42,198 [18] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:42,213 [20] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:42,224 [15] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:42,230 [15] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:42,231 [15] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 13:15:42,231 [15] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:42,633 [11] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 13:15:42,730 [11] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 13:15:42,732 [11] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 13:15:42,739 [11] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 13:15:42,742 [11] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 13:15:42,760 [23] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 13:15:44,364 [20] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 13:15:44,408 [26] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:44,422 [25] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:44,479 [21] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 13:15:44,513 [17] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 13:15:44,540 [7] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 13:15:44,566 [13] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:44,578 [16] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:44,581 [16] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 13:15:44,598 [31] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:44,607 [31] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:44,608 [31] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 13:15:44,608 [31] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:44,620 [13] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:44,631 [7] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:44,637 [7] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:44,637 [7] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 13:15:44,638 [7] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:45,036 [17] DEBUG GScanning.MainForm - Appending text: Writing frame 1 into a file.
+2018-02-28 13:15:45,124 [17] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 13:15:45,126 [17] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 13:15:45,131 [17] DEBUG GScanning.MainForm - Appending text: Frame 1 was written into the file.
+2018-02-28 13:15:45,134 [17] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 13:15:45,154 [21] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 21:44:32,851 [11] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 21:44:33,254 [4] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 21:44:33,295 [22] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:33,306 [23] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:33,344 [24] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 21:44:33,394 [26] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 21:44:33,410 [27] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 21:44:33,453 [28] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 21:44:33,455 [28] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 21:44:33,462 [28] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 21:44:33,501 [27] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:33,517 [26] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:33,530 [25] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:33,543 [25] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:33,543 [25] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 21:44:33,543 [25] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 21:44:33,558 [24] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:33,562 [24] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 21:44:33,577 [23] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:33,584 [23] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:33,584 [23] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 21:44:33,584 [23] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 21:44:38,193 [9] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 21:44:38,549 [23] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 21:44:38,590 [26] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:38,604 [27] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:38,641 [28] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 21:44:38,697 [30] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 21:44:38,715 [31] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 21:44:38,760 [32] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 21:44:38,763 [32] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 21:44:38,768 [32] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 21:44:38,805 [31] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:38,821 [30] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:38,835 [29] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:38,849 [29] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:38,849 [29] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 21:44:38,850 [29] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 21:44:38,867 [28] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:38,871 [28] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 21:44:38,885 [9] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:38,891 [9] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:38,891 [9] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 21:44:38,892 [9] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:32,750 [33] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 22:20:33,110 [25] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 22:20:33,167 [34] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:33,181 [26] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:33,219 [25] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 22:20:33,272 [17] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 22:20:33,289 [33] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 22:20:33,333 [4] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 22:20:33,335 [4] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 22:20:33,340 [4] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 22:20:33,377 [4] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:33,395 [17] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:33,407 [24] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:33,420 [24] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:33,420 [24] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 22:20:33,421 [24] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:33,433 [25] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:33,438 [25] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 22:20:33,453 [24] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:33,460 [24] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:33,460 [24] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 22:20:33,460 [24] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:37,876 [15] DEBUG GScanning.MainForm - Appending text: Test
+2018-02-28 22:20:38,240 [10] WARN GScanning.Frame - The frame does not contain color data.
+2018-02-28 22:20:38,282 [14] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:38,294 [5] WARN GScanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:38,335 [32] INFO GScanning.Kinect - Opening a frame reader.
+2018-02-28 22:20:38,387 [34] INFO GScanning.Kinect - Starting the Kinect.
+2018-02-28 22:20:38,404 [35] INFO GScanning.Kinect - Stoping the Kinect.
+2018-02-28 22:20:38,449 [36] INFO GScanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 22:20:38,452 [36] DEBUG GScanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 22:20:38,456 [36] INFO GScanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 22:20:38,506 [37] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:38,522 [36] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:38,536 [35] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:38,549 [35] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:38,549 [35] DEBUG GScanning.FrameHandler - Total: 1
+2018-02-28 22:20:38,550 [35] INFO GScanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:38,563 [34] DEBUG GScanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:38,567 [34] INFO GScanning.FrameHandler - Scanning is finished.
+2018-02-28 22:20:38,585 [33] DEBUG GScanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:38,591 [33] INFO GScanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:38,591 [33] DEBUG GScanning.FrameHandler - Total: 2
+2018-02-28 22:20:38,591 [33] INFO GScanning.FrameHandler - Starting the given action in a new thread.

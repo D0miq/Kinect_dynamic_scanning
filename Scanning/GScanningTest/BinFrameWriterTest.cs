@@ -26,7 +26,7 @@
         }
 
         /// <summary>
-        /// Tests best case scenario of a <see cref="BinFrameWriter.WriteFrame(Frame)"/>. It tests existence of a created file and its content.
+        /// Tests the <see cref="BinFrameWriter.WriteFrame(Frame)"/>. It tests existence of a created file and its content.
         /// </summary>
         [TestMethod]
         public void TestWriteFrameFileContent()
@@ -44,17 +44,17 @@
 
             BinaryReader binaryReader = new BinaryReader(new FileStream("Scans\\Frame1.bin", FileMode.Open));
             int depthLength = binaryReader.ReadInt32();
-            int colorLength = binaryReader.ReadInt32();
-            Assert.AreEqual(3, depthLength);
-            Assert.AreEqual(3, colorLength);
-
             ushort[] depthValues = { binaryReader.ReadUInt16(), binaryReader.ReadUInt16(), binaryReader.ReadUInt16() };
+
+            int colorLength = binaryReader.ReadInt32();
             byte[] colorValues = binaryReader.ReadBytes(3);
+
             binaryReader.Close();
 
-            Assert.IsTrue(initColorValues.SequenceEqual(colorValues));
+            Assert.AreEqual(3, depthLength);
+            Assert.AreEqual(3, colorLength);
             Assert.IsTrue(initDepthValues.SequenceEqual(depthValues));
-            
+            Assert.IsTrue(initColorValues.SequenceEqual(colorValues));
         }
     }
 }

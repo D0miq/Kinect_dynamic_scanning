@@ -740,3 +740,231 @@
 2018-02-25 22:01:50,090 [33] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
 2018-02-25 22:01:50,091 [33] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
 2018-02-25 22:01:50,114 [33] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 07:59:59,867 [9] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 07:59:59,905 [9] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 07:59:59,909 [9] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 08:00:00,065 [17] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 08:00:00,065 [17] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 08:00:00,070 [17] ERROR Scanning.BinFrameWriter - Proces nemùže pøistupovat k souboru I:\Dokumenty\GitHub\Kinect_dynamic_scanning\Scanning\ScanningTest\bin\Debug\Scans\Frame1.bin, protože soubor je využíván jiným procesem. Frame 1 was not written into the file.
+2018-02-28 08:05:23,678 [5] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 08:05:23,711 [5] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 08:05:23,716 [5] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 08:05:23,765 [9] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 08:05:23,765 [9] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 08:05:23,775 [9] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:09:16,095 [28] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 09:09:16,159 [30] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 09:09:16,177 [10] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 09:09:16,195 [24] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 09:09:16,226 [26] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,268 [26] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:16,268 [26] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 09:09:16,288 [5] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,298 [12] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,304 [12] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:16,305 [12] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:16,316 [23] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:16,319 [23] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 09:09:16,333 [32] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:16,344 [33] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,350 [33] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:16,350 [33] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 09:09:16,377 [32] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,384 [23] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:09:16,390 [23] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:09:16,391 [23] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:09:16,397 [12] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:16,399 [12] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 09:09:16,406 [5] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:09:16,440 [24] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:16,454 [20] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 09:09:16,476 [20] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:16,518 [26] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:16,529 [24] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 09:09:16,545 [27] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:09:16,597 [23] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:09:16,599 [23] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:09:16,604 [23] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:09:16,623 [32] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:09:16,624 [32] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:09:16,662 [32] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:47:24,064 [25] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 09:47:24,134 [10] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 09:47:24,152 [15] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 09:47:24,170 [9] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 09:47:24,203 [6] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,247 [6] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:24,248 [6] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 09:47:24,268 [33] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,278 [5] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,285 [5] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:24,285 [5] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:24,296 [26] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:24,300 [26] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 09:47:24,313 [37] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:24,323 [35] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,330 [35] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:24,330 [35] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 09:47:24,343 [37] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,350 [26] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 09:47:24,356 [26] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 09:47:24,357 [26] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 09:47:24,364 [5] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:24,365 [5] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 09:47:24,372 [33] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 09:47:24,408 [9] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:24,424 [17] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 09:47:24,451 [6] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:24,493 [5] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:24,505 [33] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 09:47:24,521 [9] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 09:47:24,573 [37] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:47:24,575 [37] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:47:24,580 [37] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 09:47:24,598 [31] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 09:47:24,598 [31] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 09:47:24,601 [31] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 10:03:23,667 [4] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 10:03:23,740 [42] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 10:03:23,758 [34] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 10:03:23,775 [29] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 10:03:23,808 [36] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,855 [36] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:23,855 [36] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 10:03:23,875 [18] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,886 [24] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,892 [24] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:23,892 [24] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:23,903 [27] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:23,907 [27] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 10:03:23,921 [12] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:23,931 [7] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,937 [7] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:23,937 [7] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 10:03:23,957 [12] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,965 [27] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 10:03:23,971 [27] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 10:03:23,971 [27] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 10:03:23,978 [24] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:23,979 [24] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 10:03:23,986 [18] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 10:03:24,022 [29] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:24,037 [19] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 10:03:24,060 [36] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:24,101 [24] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:24,112 [18] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 10:03:24,129 [29] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 10:03:24,179 [12] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 10:03:24,182 [12] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 10:03:24,187 [12] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 10:03:24,202 [25] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 10:03:24,203 [25] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 10:03:24,208 [25] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 13:15:46,890 [6] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 13:15:46,963 [13] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 13:15:46,980 [14] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 13:15:46,998 [11] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 13:15:47,030 [12] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,068 [12] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:47,068 [12] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 13:15:47,087 [18] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,097 [25] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,103 [25] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:47,103 [25] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:47,113 [20] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:47,117 [20] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 13:15:47,129 [15] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:47,139 [32] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,153 [32] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:47,154 [32] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 13:15:47,166 [15] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,173 [20] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 13:15:47,179 [20] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 13:15:47,179 [20] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 13:15:47,186 [25] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:47,188 [25] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 13:15:47,196 [18] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 13:15:47,228 [11] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:47,242 [29] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 13:15:47,263 [12] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:47,304 [12] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:47,315 [11] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 13:15:47,330 [26] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 13:15:47,379 [17] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 13:15:47,381 [17] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 13:15:47,385 [17] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 13:15:47,401 [31] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 13:15:47,401 [31] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 13:15:47,407 [31] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 21:44:35,406 [23] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,546 [23] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:35,546 [23] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 21:44:35,595 [25] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,602 [25] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:35,602 [25] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 21:44:35,614 [27] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:35,617 [27] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 21:44:35,630 [21] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:35,673 [11] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,685 [21] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,691 [21] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:35,691 [21] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 21:44:35,698 [27] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,704 [27] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 21:44:35,705 [27] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 21:44:35,713 [25] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:35,715 [25] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 21:44:35,721 [17] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 21:44:35,731 [20] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 21:44:35,812 [20] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 21:44:35,830 [17] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 21:44:35,866 [23] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 21:44:35,875 [24] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 21:44:35,940 [17] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:35,964 [25] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:35,979 [20] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 21:44:36,018 [20] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:36,034 [12] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 21:44:36,048 [6] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 21:44:36,083 [24] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 21:44:36,085 [24] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 21:44:36,090 [24] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 21:44:36,107 [23] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 21:44:36,108 [23] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 21:44:36,134 [23] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 22:20:35,136 [24] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,229 [24] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:35,230 [24] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 22:20:35,282 [4] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,289 [4] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:35,290 [4] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:35,301 [28] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:35,305 [28] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 22:20:35,318 [29] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:35,364 [32] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,373 [6] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,380 [6] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:35,387 [6] INFO Scanning.FrameHandler - Starting the given action in the current thread.
+2018-02-28 22:20:35,396 [29] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,402 [29] INFO Scanning.FrameHandler - 1 of 1 frames was read properly.
+2018-02-28 22:20:35,402 [29] INFO Scanning.FrameHandler - Starting the given action in a new thread.
+2018-02-28 22:20:35,408 [26] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:35,410 [26] INFO Scanning.FrameHandler - Scanning is finished.
+2018-02-28 22:20:35,417 [4] DEBUG Scanning.FrameHandler - Number of frames: 0
+2018-02-28 22:20:35,426 [22] DEBUG Scanning.FrameHandler - Number of frames: 1
+2018-02-28 22:20:35,503 [13] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 22:20:35,522 [10] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 22:20:35,558 [26] INFO Scanning.Kinect - Stoping the Kinect.
+2018-02-28 22:20:35,568 [28] INFO Scanning.Kinect - Starting the Kinect.
+2018-02-28 22:20:35,636 [22] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:35,660 [25] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:35,675 [10] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 22:20:35,714 [4] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:35,731 [10] WARN Scanning.Frame - The frame does not contain depth data.
+2018-02-28 22:20:35,744 [25] WARN Scanning.Frame - The frame does not contain color data.
+2018-02-28 22:20:35,778 [10] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 22:20:35,780 [10] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 22:20:35,785 [10] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.
+2018-02-28 22:20:35,801 [22] INFO Scanning.BinFrameWriter - Writing frame 1 into a file.
+2018-02-28 22:20:35,802 [22] DEBUG Scanning.BinFrameWriter - Path: Scans\Frame1.bin
+2018-02-28 22:20:35,836 [22] INFO Scanning.BinFrameWriter - Frame 1 was written into the file.

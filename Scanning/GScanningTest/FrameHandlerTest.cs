@@ -53,7 +53,7 @@
         }
 
         /// <summary>
-        /// Tests best case scenario of a <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with an event running on a current thread.
+        /// Tests the <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with an event running on a current thread.
         /// </summary>
         [TestMethod]
         public void TestFrameArrivedSingleThread()
@@ -64,7 +64,7 @@
         }
 
         /// <summary>
-        /// Tests best case scenario of a <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with an event running on a new thread.
+        /// Tests the <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with an event running on a new thread.
         /// </summary>
         [TestMethod]
         public void TestFrameArrivedMultithread()
@@ -76,7 +76,7 @@
         }
 
         /// <summary>
-        /// Tests a <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with null <see cref="MultiSourceFrame"/>.
+        /// Tests the <see cref="FrameHandler.Handler_FrameArrived(object, MultiSourceFrameArrivedEventArgs)"/> with null <see cref="MultiSourceFrame"/>.
         /// </summary>
         [TestMethod]
         public void TestFrameArrivedNullMultiSourceFrame()

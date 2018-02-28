@@ -31,7 +31,7 @@
         }
 
         /// <summary>
-        /// Tests best case scenario of a <see cref="Frame.AcquireData"/>.
+        /// Tests the <see cref="Frame.AcquireData"/>.
         /// </summary>
         [TestMethod]
         public void TestAcquireData()
@@ -40,7 +40,7 @@
         }
 
         /// <summary>
-        /// Tests a <see cref="Frame.AcquireData"/> when depth data are null.
+        /// Tests the <see cref="Frame.AcquireData"/> when depth data are null.
         /// </summary>
         [TestMethod]
         public void TestAcquireDataDepthNull()
@@ -50,7 +50,7 @@
         }
 
         /// <summary>
-        /// Tests a <see cref="Frame.AcquireData"/> when color data are null.
+        /// Tests the <see cref="Frame.AcquireData"/> when color data are null.
         /// </summary>
         [TestMethod]
         public void TestAcquireDataColorNull()
@@ -60,7 +60,7 @@
         }
 
         /// <summary>
-        /// Tests a <see cref="Frame.AcquireData"/> when both depth and color data are null.
+        /// Tests the <see cref="Frame.AcquireData"/> when both depth and color data are null.
         /// </summary>
         [TestMethod]
         public void TestAcquireDataBothNull()
