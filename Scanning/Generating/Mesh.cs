@@ -267,7 +267,7 @@ namespace Generating
             }
 
             /// <summary>
-            /// Creates a mesh with speciied characteristics.
+            /// Creates a mesh with specified characteristics.
             /// </summary>
             /// <returns>The created mesh.</returns>
             public Mesh Build()

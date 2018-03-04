@@ -4,7 +4,7 @@
     using System.Windows.Forms;
 
     /// <summary>
-    /// An instance of the <see cref="MainForm"/> class reppresents a main window of the application.
+    /// An instance of the <see cref="MainForm"/> class represents a main window of the application.
     /// It provides informations about states of the application and shows preview of scanned frames.
     /// </summary>
     public partial class MainForm : Form
